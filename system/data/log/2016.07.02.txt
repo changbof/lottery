@@ -1,0 +1,90 @@
+[MSG]: Array to string conversion
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\core.core.php
+[LINE]: 21
+[TIME]: 2016-07-02 21:03:40
+[URI]: /
+
+[MSG]: Array to string conversion
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\core.core.php
+[LINE]: 21
+[TIME]: 2016-07-02 21:03:40
+[URI]: /user/login?client_type=web
+
+[MSG]: Undefined variable: this
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\core.core.php
+[LINE]: 17
+[TIME]: 2016-07-02 21:54:06
+[URI]: /
+
+[MSG]: Non-static method core::is_mobile_request() should not be called statically
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\core.core.php
+[LINE]: 17
+[TIME]: 2016-07-02 22:06:12
+[URI]: /user/logout
+
+[MSG]: Non-static method core::is_mobile_request() should not be called statically, assuming $this from incompatible context
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\mod.core.php
+[LINE]: 83
+[TIME]: 2016-07-02 22:06:12
+[URI]: /user/logout
+
+[MSG]: Non-static method core::is_mobile_request() should not be called statically
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\core.core.php
+[LINE]: 17
+[TIME]: 2016-07-02 22:06:14
+[URI]: /user/logout
+
+[MSG]: Non-static method core::is_mobile_request() should not be called statically, assuming $this from incompatible context
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\mod.core.php
+[LINE]: 83
+[TIME]: 2016-07-02 22:06:14
+[URI]: /user/logout
+
+[MSG]: Non-static method core::is_mobile_request() should not be called statically
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\core.core.php
+[LINE]: 17
+[TIME]: 2016-07-02 22:06:15
+[URI]: /user/logout
+
+[MSG]: Non-static method core::is_mobile_request() should not be called statically, assuming $this from incompatible context
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\mod.core.php
+[LINE]: 83
+[TIME]: 2016-07-02 22:06:15
+[URI]: /user/logout
+
+[MSG]: Non-static method core::is_mobile_request() should not be called statically
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\core.core.php
+[LINE]: 17
+[TIME]: 2016-07-02 22:06:15
+[URI]: /user/logout
+
+[MSG]: Non-static method core::is_mobile_request() should not be called statically, assuming $this from incompatible context
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\mod.core.php
+[LINE]: 83
+[TIME]: 2016-07-02 22:06:15
+[URI]: /user/logout
+
+[MSG]: Non-static method core::is_mobile_request() should not be called statically
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\core.core.php
+[LINE]: 17
+[TIME]: 2016-07-02 22:06:15
+[URI]: /user/logout
+
+[MSG]: Non-static method core::is_mobile_request() should not be called statically, assuming $this from incompatible context
+[FILE]: D:\Server\upupw_magento\htdocs\system\core\mod.core.php
+[LINE]: 83
+[TIME]: 2016-07-02 22:06:15
+[URI]: /user/logout
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2016-07-02 22:22:30
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 257
+[TIME]: 2016-07-02 22:30:39
+[URI]: /game/submit
+

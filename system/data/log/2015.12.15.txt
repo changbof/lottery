@@ -1,0 +1,1938 @@
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 00:41:49
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 00:44:10
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 01:13:06
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 01:15:13
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 01:17:29
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 01:18:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 01:31:19
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 01:35:26
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 01:36:39
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 01:37:27
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 01:38:15
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 02:17:17
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 02:40:35
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 02:43:08
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 10:09:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 10:12:18
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 10:16:37
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 10:17:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:26:58
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:27:53
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:29:20
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:31:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:33:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:35:27
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:35:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:37:49
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:39:13
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:49:39
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:51:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:51:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:51:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:51:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:51:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:51:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:51:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:51:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:51:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:51:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:56:52
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:58:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:58:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:58:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:58:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:58:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:58:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:58:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:58:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:58:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 13:58:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:01:24
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:02:08
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:02:08
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:02:08
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:02:08
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:02:08
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:02:08
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:02:08
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:02:08
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:02:08
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:02:08
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:03:22
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:03:22
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:03:22
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:03:22
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:03:22
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:03:22
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:03:22
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:03:22
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:03:22
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:03:22
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:12
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:12
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:06:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:07:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/submit
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:11:32
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:01
+[URI]: /game/bets?id=5
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/submit
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:12:11
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:07
+[URI]: /game/bets?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Undefined offset: 22
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\game\bets_recent.tpl.php
+[LINE]: 29
+[TIME]: 2015-12-15 14:13:12
+[URI]: /game/index?id=5
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:00:39
+[URI]: /game/submit
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\home.tpl.php
+[LINE]: 79
+[TIME]: 2015-12-15 15:07:00
+[URI]: /
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\home.tpl.php
+[LINE]: 79
+[TIME]: 2015-12-15 15:07:00
+[URI]: /
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\home.tpl.php
+[LINE]: 79
+[TIME]: 2015-12-15 15:07:00
+[URI]: /
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\home.tpl.php
+[LINE]: 79
+[TIME]: 2015-12-15 15:07:00
+[URI]: /
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\home.tpl.php
+[LINE]: 79
+[TIME]: 2015-12-15 15:07:00
+[URI]: /
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\home.tpl.php
+[LINE]: 79
+[TIME]: 2015-12-15 15:07:00
+[URI]: /
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\home.tpl.php
+[LINE]: 79
+[TIME]: 2015-12-15 15:07:00
+[URI]: /
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\home.tpl.php
+[LINE]: 79
+[TIME]: 2015-12-15 15:07:00
+[URI]: /
+
+[MSG]: Undefined offset: 23
+[FILE]: D:\upupw_magento\htdocs\qt\system\tpl\web\home.tpl.php
+[LINE]: 79
+[TIME]: 2015-12-15 15:07:00
+[URI]: /
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:11:25
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:12:44
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:13:33
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:14:15
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:15:11
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:16:27
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:19:32
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:28:36
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:29:40
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:35:30
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:36:19
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:38:37
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:39:37
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:40:28
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:41:57
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:43:29
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:43:52
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:44:20
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:44:51
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\qt\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-15 15:47:44
+[URI]: /game/submit
+

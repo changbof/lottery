@@ -1,0 +1,12 @@
+[MSG]: Division by zero
+[FILE]: D:\Server\Root\index\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-09-02 00:40:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\Server\Root\index\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-09-02 00:46:46
+[URI]: /game/submit
+

@@ -1,0 +1,36 @@
+[MSG]: Undefined index:  18
+[FILE]: D:\UPUPW_AP5.2\vhosts\www.licaiyule.com\system\pay\iqdpay.pay.php
+[LINE]: 34
+[TIME]: 2015-12-08 23:17:28
+[URI]: /user/pay
+
+[MSG]: Undefined index:  18
+[FILE]: D:\UPUPW_AP5.2\vhosts\www.licaiyule.com\system\pay\iqdpay.pay.php
+[LINE]: 34
+[TIME]: 2015-12-08 23:20:56
+[URI]: /user/pay
+
+[MSG]: Undefined index:  18
+[FILE]: D:\UPUPW_AP5.2\vhosts\www.licaiyule.com\system\pay\iqdpay.pay.php
+[LINE]: 34
+[TIME]: 2015-12-08 23:21:55
+[URI]: /user/pay
+
+[MSG]: Division by zero
+[FILE]: D:\UPUPW_AP5.2\vhosts\www.licaiyule.com\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-08 23:37:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\UPUPW_AP5.2\vhosts\www.licaiyule.com\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-08 23:37:41
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\UPUPW_AP5.2\vhosts\www.licaiyule.com\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-08 23:41:45
+[URI]: /game/submit
+

@@ -1,0 +1,12 @@
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-05 21:11:15
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-05 23:12:13
+[URI]: /game/submit
+

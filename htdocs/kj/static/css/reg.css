@@ -1,0 +1,28 @@
+body,p,button{margin:0}
+body,input,button{font:12px 'Century Gothic','Microsoft YaHei',Tahoma,Verdana,Arial,helvetica,sans-serif}
+body{color:#555;background:url(../image/bg.png) repeat top left fixed}
+a,input,button,.trans{-webkit-transition:all .218s linear;-moz-transition:all .218s linear;transition:all .218s linear;outline:0}
+a{text-decoration:none}
+ul,ol{list-style:none;padding:0;margin:0}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:'';clear:both;height:0}
+.hide{display:none}
+#reg{position:relative;top:-560px}
+#reg .container{background-color:rgba(250,246,239,.75);width:420px;margin:0 auto;border-radius:4px}
+#reg .body{padding:50px 60px}
+#reg .body .content{width:300px;float:left}
+#reg .body .content .logo{width:220px;height:50px;background:url("../image/logo.png") no-repeat;margin:0}
+#reg .body .content h2{margin:25px 0;color:#666;font-weight:500;font-size:14px}
+#form .input{border:1px solid #ddd;background-color:rgba(250,248,245,.9);padding:10px;margin-bottom:15px;border-radius:3px}
+#form .input.has_tip{border-radius:3px 3px 0 0}
+#form .input.focus{border-color:#abc2d7}
+#form .input .icon{font-size:15px;color:#999;width:15px;height:15px}
+#form .input input{border:none;background-color:rgba(250,248,245,.9);color:#999;font-size:13px;width:245px}
+#form .tip{background-color:#f5f5f5;padding:3px 15px;border:1px solid #ddd;color:#999;margin:-15px 0 15px;border-top:none;border-radius:0 0 3px 3px;display:none}
+#form .bottom{height:38px;line-height:38px}
+#form .bottom button{font-size:15px;background-color:rgb(239, 159, 80);border:1px solid rgb(236,153,72);color:#fff;width:100%;height:38px;line-height:36px;border-radius:3px;cursor:pointer;float:right}
+#form .bottom button:hover{background-color:rgb(231, 138, 47);border-color:rgb(228,133,40)}
+#form .error{background-color:#ffb3b3;border:1px solid #ffadad;padding:5px 10px;color:#777;margin-top:15px;border-radius:2px;display:none}
+#form .error.success{background-color:#c9f5c6;border:1px solid #bef1ba}
+#reg .footer{background-color:rgba(250,246,239,.5);padding:20px 60px;font-size:13px;color:#999;border-top:2px solid #faf6ef}
+#reg .footer a{color:#35928f;border-bottom:1px dotted transparent;margin:0 5px}
+#reg .footer a:hover{border-bottom-color:#35928f}

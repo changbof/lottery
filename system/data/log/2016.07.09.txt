@@ -1,0 +1,12 @@
+[MSG]: Use of undefined constant client_type - assumed 'client_type'
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\bet.mod.php
+[LINE]: 74
+[TIME]: 2016-07-09 18:28:08
+[URI]: /bet/info?id=57
+
+[MSG]: Object of class mod_bet could not be converted to string
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\bet.mod.php
+[LINE]: 74
+[TIME]: 2016-07-09 18:28:08
+[URI]: /bet/info?id=57
+

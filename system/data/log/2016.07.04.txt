@@ -1,0 +1,92 @@
+[TYPE]: MYSQL
+[SQL]: SELECT * FROM `lottery_params`
+[TIME]: 2016-07-04 10:13:28
+[URI]: /tip/money
+
+[TYPE]: MYSQL
+[SQL]: SELECT * FROM `lottery_params`
+[TIME]: 2016-07-04 10:13:32
+[URI]: /tip/money
+
+[TYPE]: MYSQL
+[SQL]: SELECT * FROM `lottery_params`
+[TIME]: 2016-07-04 10:13:36
+[URI]: /tip/money
+
+[TYPE]: MYSQL
+[SQL]: SELECT * FROM `lottery_params`
+[TIME]: 2016-07-04 10:13:36
+[URI]: /tip/message
+
+[TYPE]: MYSQL
+[SQL]: SELECT * FROM `lottery_params`
+[TIME]: 2016-07-04 10:13:40
+[URI]: /tip/money
+
+[TYPE]: MYSQL
+[SQL]: SELECT * FROM `lottery_params`
+[TIME]: 2016-07-04 10:13:44
+[URI]: /tip/money
+
+[TYPE]: MYSQL
+[SQL]: SELECT * FROM `lottery_params`
+[TIME]: 2016-07-04 10:13:48
+[URI]: /tip/money
+
+[TYPE]: MYSQL
+[SQL]: SELECT * FROM `lottery_params`
+[TIME]: 2016-07-04 10:13:52
+[URI]: /tip/money
+
+[TYPE]: MYSQL
+[SQL]: SELECT * FROM `lottery_params`
+[TIME]: 2016-07-04 10:13:52
+[URI]: /tip/message
+
+[TYPE]: MYSQL
+[SQL]: SELECT * FROM `lottery_params`
+[TIME]: 2016-07-04 10:13:56
+[URI]: /tip/money
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-04 10:34:16
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-04 10:40:46
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-04 10:49:01
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-04 10:53:33
+[URI]: /game/submit
+
+[MSG]: Undefined variable: remember
+[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\user\setting.tpl.php
+[LINE]: 27
+[TIME]: 2016-07-04 14:25:49
+[URI]: /user/setting
+
+[MSG]: Undefined variable: remember
+[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\user\setting.tpl.php
+[LINE]: 27
+[TIME]: 2016-07-04 14:26:34
+[URI]: /user/setting
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-04 18:02:10
+[URI]: /game/submit
+

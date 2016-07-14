@@ -1,0 +1,41 @@
+body,p,button{margin:0}
+body,input,button{font:12px 'Century Gothic','Microsoft YaHei',Tahoma,Verdana,Arial,helvetica,sans-serif}
+body{color:#555;background:url(../image/bg.png) repeat top left fixed}
+a,input,button,.trans{-webkit-transition:all .218s linear;-moz-transition:all .218s linear;transition:all .218s linear;outline:0}
+a{text-decoration:none}
+ul,ol{list-style:none;padding:0;margin:0}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:'';clear:both;height:0}
+.hide{display:none}
+#login{position:relative;top:-466px}
+#login .container{background-color:rgba(250,246,239,.75);width:714px;margin:0 auto;border-radius:4px}
+#login .body{padding:50px 60px}
+#login .body .content{width:300px;margin-right:60px;float:left}
+#login .body .content .logo{width:220px;height:50px;background:url("../image/logo.png") no-repeat;margin:0}
+#login .body .content h2{margin:25px 0;color:#666;font-weight:500;font-size:14px}
+#form .input{border:1px solid #ddd;background-color:rgba(250,248,245,.9);padding:10px;margin-bottom:15px;border-radius:3px}
+#form .input.focus{border-color:#abc2d7}
+#form .input .icon{font-size:15px;color:#999;width:15px;height:15px}
+#form .input input{border:none;background-color:rgba(250,248,245,.9);color:#999;font-size:13px;width:245px}
+#form .bottom{height:38px;line-height:38px}
+#form .bottom label input{vertical-align:-2px}
+#form .bottom button{font-size:15px;background-color:rgb(239, 159, 80);border:1px solid rgb(236,153,72);color:#fff;width:100px;height:38px;line-height:36px;border-radius:3px;cursor:pointer;float:right}
+#form .bottom button:hover{background-color:rgb(231, 138, 47);border-color:rgb(228,133,40)}
+#form .error{background-color:#ffb3b3;border:1px solid #ffadad;padding:5px 10px;color:#777;margin-top:15px;border-radius:2px;display:none}
+#login .body .sidebar{padding:30px 0 30px 60px;border-left:1px solid #e6e6e6;float:left}
+#login .body .sidebar .name{font-size:15px;text-align:center;margin-bottom:25px}
+#login .body .sidebar .download{width:136px;height:40px;line-height:40px;margin:0 0 20px;padding:0 0 0 34px;display:block;font-size:14px;font-weight:400;text-align:center;white-space:nowrap;vertical-align:middle;color:#fff;border-radius:4px;position:relative}
+#login .body .sidebar .download:hover{opacity:0.8}
+#login .body .sidebar .download.blue{background-color:#a3b9ff}
+#login .body .sidebar .download.green{background-color:#93d79b}
+#login .body .sidebar .download.purple{background-color:#cfa3ff}
+#login .body .sidebar .download span{float:left}
+#login .body .sidebar .download span.icon:before{border:1px solid #fff;border-radius:20px;padding:5px}
+#login .body .sidebar .download span.icon.icon-windows:before{padding:6px 6px 4px 4px}
+#login .body .sidebar .download span.icon.icon-appstore:before{padding:5px 6px 5px 4px}
+#login .body .sidebar .download span.icon{margin-right:3px}
+#login .body .sidebar .download.blue span.tip{background-color:#a3b9ff}
+#login .body .sidebar .download.green span.tip{background-color:#93d79b}
+#login .body .sidebar .download.purple span.tip{background-color:#cfa3ff}
+#login .body .sidebar .download span.tip{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:4px;opacity:0}
+#login .body .sidebar .download:hover span.tip{opacity:1}
+#login .footer{background-color:rgba(250,246,239,.5);padding:20px 60px;font-size:13px;color:#999;border-top:2px solid #faf6ef}

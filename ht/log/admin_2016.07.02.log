@@ -1,0 +1,40 @@
+[URL] : /
+[MSG] : Undefined index: _ADMIN_
+[FILE] : D:\php\upupw_magento\htdocs\ht\mod\AdminBase.class.php
+[LINE] : 46
+
+[URL] : /index.php/user/login
+[MSG] : Undefined property: user::$user
+[FILE] : D:\php\upupw_magento\htdocs\ht\lib\DBAccess.lib.php
+[LINE] : 67
+
+[URL] : /ht/
+[MSG] : Undefined index: _ADMIN_
+[FILE] : D:\php\upupw_magento\htdocs\ht\mod\AdminBase.class.php
+[LINE] : 46
+
+[URL] : /ht/
+[MSG] : Undefined index: _ADMIN_
+[FILE] : D:\php\upupw_magento\htdocs\ht\mod\AdminBase.class.php
+[LINE] : 46
+
+[URL] : /ht/
+[MSG] : Undefined index: _ADMIN_
+[FILE] : D:\php\upupw_magento\htdocs\ht\mod\AdminBase.class.php
+[LINE] : 46
+
+[URL] : /ht/
+[MSG] : Undefined index: _ADMIN_
+[FILE] : D:\php\upupw_magento\htdocs\ht\mod\AdminBase.class.php
+[LINE] : 46
+
+[URL] : /
+[MSG] : Undefined index: _ADMIN_
+[FILE] : D:\php\upupw_magento\htdocs\ht\mod\AdminBase.class.php
+[LINE] : 46
+
+[URL] : /index.php/user/login
+[MSG] : Undefined property: user::$user
+[FILE] : D:\php\upupw_magento\htdocs\ht\lib\DBAccess.lib.php
+[LINE] : 67
+

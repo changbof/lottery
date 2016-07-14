@@ -1,0 +1,30 @@
+[MSG]: Division by zero
+[FILE]: D:\UPUPW_AP5.2\vhosts\www.licaiyule.com\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-06 01:46:58
+[URI]: /game/submit
+
+[MSG]: require(D:\UPUPW_AP5.2\vhosts\www.licaiyule.com/system/pay/ips23.pay.php): failed to open stream: No such file or directory
+[FILE]: D:\UPUPW_AP5.2\vhosts\www.licaiyule.com\system\mod\user.mod.php
+[LINE]: 1231
+[TIME]: 2015-12-06 10:03:58
+[URI]: /user/pay
+
+[MSG]: require(D:\UPUPW_AP5.2\vhosts\www.licaiyule.com/system/pay/ips23.pay.php): failed to open stream: No such file or directory
+[FILE]: D:\UPUPW_AP5.2\vhosts\www.licaiyule.com\system\mod\user.mod.php
+[LINE]: 1231
+[TIME]: 2015-12-06 10:03:58
+[URI]: /user/pay
+
+[MSG]: require(D:\UPUPW_AP5.2\vhosts\www.licaiyule.com/system/pay/ips23.pay.php): failed to open stream: No such file or directory
+[FILE]: D:\UPUPW_AP5.2\vhosts\www.licaiyule.com\system\mod\user.mod.php
+[LINE]: 1231
+[TIME]: 2015-12-06 10:03:58
+[URI]: /user/pay
+
+[MSG]: Undefined index:  18
+[FILE]: D:\UPUPW_AP5.2\vhosts\www.licaiyule.com\system\pay\iqdpay.pay.php
+[LINE]: 34
+[TIME]: 2015-12-06 11:38:46
+[URI]: /user/pay
+

@@ -1,0 +1,60 @@
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 257
+[TIME]: 2016-07-03 10:33:47
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 257
+[TIME]: 2016-07-03 15:11:26
+[URI]: /game/submit
+
+[MSG]: Use of undefined constant client_type - assumed 'client_type'
+[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
+[LINE]: 6
+[TIME]: 2016-07-03 16:40:28
+[URI]: /game/index?id=60
+
+[MSG]: Object of class mod_game could not be converted to string
+[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
+[LINE]: 6
+[TIME]: 2016-07-03 16:40:28
+[URI]: /game/index?id=60
+
+[MSG]: Use of undefined constant client_type - assumed 'client_type'
+[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
+[LINE]: 6
+[TIME]: 2016-07-03 16:41:52
+[URI]: /game/index?id=60
+
+[MSG]: Object of class mod_game could not be converted to string
+[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
+[LINE]: 6
+[TIME]: 2016-07-03 16:41:52
+[URI]: /game/index?id=60
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-03 17:28:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-03 18:15:17
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-03 18:53:27
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-03 21:51:49
+[URI]: /game/submit
+

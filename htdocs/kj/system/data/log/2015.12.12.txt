@@ -1,0 +1,246 @@
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 10:38:07
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 10:46:42
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 16:05:36
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 16:06:00
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 18:33:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 18:34:20
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 18:34:56
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 18:35:35
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 18:37:19
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 18:38:03
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 18:38:20
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 18:39:54
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 18:40:29
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 18:40:59
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:01:04
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:01:56
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:02:32
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:04:01
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:04:17
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:04:39
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:05:00
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:05:31
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:06:20
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:07:11
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:08:02
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:10:49
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:12:36
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:17:09
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:22:02
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:25:51
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:28:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:29:58
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:30:55
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:40:43
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:40:52
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:42:31
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:43:03
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:43:34
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:43:34
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 19:43:34
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\upupw_magento\htdocs\kj\system\mod\game.mod.php
+[LINE]: 256
+[TIME]: 2015-12-12 21:50:01
+[URI]: /game/submit
+
