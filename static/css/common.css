@@ -105,7 +105,7 @@ div.cs-select:focus{outline:0}
 #header .notice{float:left;background-color:rgba(250,246,239,.75);margin:15px 0 0 50px;border-radius:4px;width:613px;padding:11px 80px 11px 27px;color:#666;height:17px;line-height:17px;position:relative}
 #header .notice marquee{float:left}
 #header .notice span.icon{position:absolute;left:10px}
-#header .notice span.close{position:absolute;right:0;top:0;cursor:pointer;height:39px;line-height:39px;width:80px;text-align:center;border-radius:0 4px 4px 0}
+#header .notice span.close{position:absolute;right:0;top:0;cursor:pointer;height:39px;line-height:39px;width:80px;text-align:center;border-width:0;border-radius:0 4px 4px 0}
 #header .client{float:right}
 #header .client a{color:#666;float:left;margin-left:30px;margin-top:7px}
 #header .client .icon{width:36px;display:block;margin:0 auto}
@@ -466,7 +466,7 @@ a#agent:after{content:'\e84d';position:absolute;right:15px;top:21px;line-height:
 	z-index: 98;
 	margin: 0;
 	padding: 5px 3px;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 20px;
 	font-weight: bold;
 	background-color: #fff;
