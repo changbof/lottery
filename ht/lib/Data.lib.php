@@ -32,7 +32,7 @@ class Data
     // K3三同号单选
     public function k33dx($betData, $kjData){
         $kjData = str_replace(',','',$kjData);
-        return !stripos($betData, $kjData) ? 1 : 0;
+        return !!stripos($betData, $kjData) ? 1 : 0;
 
     }
 
@@ -48,82 +48,31 @@ class Data
     }
 
     // K3三不同号
-    public function k33bt($bet){
-        $check=array('1','2','3','4','5','6');
-        $exp_num = '';
-        foreach ($check as $v) $exp_num .= $v.'|';
-        $exp_num = substr($exp_num, 0, -1);
-        $exp = '/^\((('.$exp_num.') ){0,}('.$exp_num.')\)(('.$exp_num.') ){0,}('.$exp_num.')$/';
-        if (preg_match($exp, $bet)) { // 胆拖模式
-            $pos = strpos($bet, ')');
-            $bet_prefix = substr($bet, 1, $pos - 1);
-            $bet_prefix = explode(' ', $bet_prefix);
-            $new_bet = substr($bet, $pos + 1);
-            foreach ($bet_prefix as $v) {
-                if (strpos($new_bet, $v)) return 0;
-            }
-            if (count($bet_prefix) === 1) { // 一胆
-                return $this->rx($new_bet, 2);
-            } else { // 两胆
-                return $this->rx($new_bet, 1);
-            }
-        } else {
-            $bet1=explode(' ', $bet);$a=array_unique($bet1);
-            if(count($bet1)!=count($a) || count($bet1)<3 || count($bet1)>6) return 0;
-            foreach($bet1 as $bets){
-                if(!in_array($bets,$check)) return 0;
-            }
-            return $this->C(count($bet1), 3);
-        }
+    public function k33bt($betData, $kjData){
+        return self::zx($betData, $kjData);
     }
 
     // K3二不同号
-    public function k32bt($bet){
-        $check=array('1','2','3','4','5','6');
-        $exp_num = '';
-        foreach ($check as $v) $exp_num .= $v.'|';
-        $exp_num = substr($exp_num, 0, -1);
-        $exp = '/^\(('.$exp_num.')\)(('.$exp_num.') ){0,}('.$exp_num.')$/';
-        if (preg_match($exp, $bet)) {  // 胆拖模式
-            $bet_prefix = substr($bet, 1, 2);
-            $new_bet = substr($bet, 4);
-            if (strpos($new_bet, $bet_prefix)) return 0;
-            $total = count(explode(' ', $new_bet));
-            return $total > 5 ? 0 : $total;
-        } else {
-            $bet1=explode(' ', $bet);$a=array_unique($bet1);
-            if(count($bet1)!=count($a) || count($bet1)<2 || count($bet1)>6) return 0;
-            foreach($bet1 as $bets){
-                if(!in_array($bets,$check)) return 0;
-            }
-            return $this->C(count($bet1), 2);
-        }
+    public function k32bt($betData, $kjData){
+        return self::k33bt($betData, $kjData);
     }
 
     // K3二同号复选
-    public function k32tfx($bet){
+    public function k32tfx($betData, $kjData){
+        $strkj = 'k32tfx';
+        $betData = preg_replace('/\*\s?/','',$betData);
 
-        $betData = str_replace('*','',$betData);
-        $betData = explode(',',$betData);
-        $kjData = explode(',',$kjData);
+        $data = explode(',',$kjData);
+        sort($data);
+        $r = preg_match("/(?<k1>[\d])\k<k1>{1}/",join('',$data),$match);
+        if($r)
+            $strkj = $match[0];
 
-        $kj1 = intval($kjData[0]) + intval($kjData[1]);
-        $kj2 = intval($kjData[2]);
-        $kj = $kj1.','.$kj2;
-        return strpos($betData, $kjData)!=false ? 1 : 0;
-
-
-        $check=array('11*','22*','33*','44*','55*','66*');
-        $bet1=explode(' ', $bet);$a=array_unique($bet1);
-        if(count($bet1)!=count($a) || count($bet1)>6 || count($bet1)<1) return 0;
-        foreach($bet1 as $bets){
-            if(!in_array($bets,$check)) return 0;
-        }
-        return count($bet1);
+        return !!stripos($betData,$strkj) ? 1 : 0;
     }
 
-    // K3二同号复选
-    public function k32tdx($bet){
+    // K3二同号单选 todo
+    public function k32tdx($betData, $kjData){
         $check=array('11','22','33','44','55','66');
         $check2=array('1','2','3','4','5','6');
         $bet=explode(',', $bet);$bet[0]=explode(' ',$bet[0]);$bet[1]=explode(' ',$bet[1]);$a=array_unique($bet[0]);$b=array_unique($bet[1]);
@@ -148,7 +97,32 @@ class Data
      * @param $num              选取的个数
      * @return array            组合
      */
-    public function combine($array, $num){
+
+    function combination($a, $m) {
+        $r = array();
+
+        $n = count($a);
+        if ($m <= 0 || $m > $n) {
+            return $r;
+        }
+
+        for ($i=0; $i<$n; $i++) {
+            $t = array($a[$i]);
+            if ($m == 1) {
+                $r[] = $t;
+            } else {
+                $b = array_slice($a, $i+1);
+                $c = combination($b, $m-1);
+                foreach ($c as $v) {
+                    $r[] = array_merge($t, $v);
+                }
+            }
+        }
+
+        return $r;
+    }
+
+    public function combina($array, $num){
         $c = count($ar);
         if ($n>$c) return false; // parameter wrong
         if ($c>50) return false; // too big array :)
@@ -224,13 +198,13 @@ class Data
      * @return 			返回中奖注数
      */
     public function zx($bet,$data){
-        $data = explode(',',$data);
         $bet = explode(' ',$bet);
-        $rst = combine($bet,count($data));
-        foreach($rst as $r) {
-            array_filter($r, funcion($var){
-                return !in_array($data,$r);
-            });
-        }
+        $data = explode(',',$data);
+        sort($data);
+        $strDate = implode(',',$data);
+        return count(array_filter( combine($bet,count($data)),
+            funcion($var) use ($strDate){
+                    return !!($v == $strDate);
+        }));
     }
 }
