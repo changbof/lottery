@@ -71,19 +71,23 @@ class Data
         return !!stripos($betData,$strkj) ? 1 : 0;
     }
 
-    // K3二同号单选 todo
+    // K3二同号单选
     public function k32tdx($betData, $kjData){
-        $check=array('11','22','33','44','55','66');
-        $check2=array('1','2','3','4','5','6');
-        $bet=explode(',', $bet);$bet[0]=explode(' ',$bet[0]);$bet[1]=explode(' ',$bet[1]);$a=array_unique($bet[0]);$b=array_unique($bet[1]);
-        if(count($bet[0])!=count($a) || count($bet[1])!=count($b) || count($bet[0])>6 || count($bet[0])<1 || count($bet[1])>6 || count($bet[1])<1) return 0;
-        foreach($bet[0] as $x){
-            if(!in_array($x,$check)) return 0;
-        }
-        foreach($bet[1] as $y){
-            if(!in_array($y,$check2)) return 0;
-        }
-        return count($bet[0])*count($bet[1]);
+        $count = 0;
+        $data = explode(',',$kjData);
+        sort($data);
+        $data = join('',$data);
+        $r = preg_match("/(?<k1>[\d])\k<k1>{1}/",$data,$match);
+        if(!$r) return 0;
+
+        $kjdb = $match[0];
+        $kjt = trim($data,$kjdb);
+        $betData = explode(',',$betData);
+
+        if (!!strpos($betData[0],$kjdb) && !!strpos($betData[1],$kjt)) $count=1;
+
+        return $count;
+
     }
 
     /**
