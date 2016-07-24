@@ -126,7 +126,7 @@ class Data
         return $r;
     }
 
-    public function combina($array, $num){
+    public function combina($ar, $n){
         $c = count($ar);
         if ($n>$c) return false; // parameter wrong
         if ($c>50) return false; // too big array :)
