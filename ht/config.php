@@ -2,22 +2,22 @@
 require_once('safe.php');
 $conf['debug']['level']=5;
 
-/*		Êı¾İ¿âÅäÖÃ		*/
-$conf['db']['dsn'] = 'mysql:host=localhost;dbname=lottery;port=3306';
+/*		æ•°æ®åº“é…ç½®		*/
+$conf['db']['dsn'] = 'mysql:host=localhost;dbname=lottery;port=3307';
 $conf['db']['user'] = 'root';
-$conf['db']['password'] = '123456@';
+$conf['db']['password'] = '123456';
 $conf['db']['charset'] = 'utf8';
 $conf['db']['prename'] = 'lottery_';
 
-$conf['safepass']='b123456';     //ºóÌ¨µÇÂ½°²È«Âë
+$conf['safepass']='b123456';     //åå°ç™»é™†å®‰å…¨ç 
 
 $conf['cache']['expire'] = 0;
-$conf['cache']['dir'] = '_cache/';     //Ç°Ì¨»º´æÄ¿Â¼
+$conf['cache']['dir'] = '_cache/';     //å‰å°ç¼“å­˜ç›®å½•
 $conf['url_modal'] = 2;
 $conf['action']['template'] = 'tpl/';
 $conf['action']['modals'] = 'mod/';
-$conf['member']['sessionTime'] = 15 * 60;	// ÓÃ»§ÓĞĞ§Ê±³¤
-$conf['node']['access'] = 'http://localhost:65531';	// node·ÃÎÊ»ù±¾Â·¾¶
+$conf['member']['sessionTime'] = 15 * 60;	//  ç”¨æˆ·æœ‰æ•ˆæ—¶é•¿
+$conf['node']['access'] = 'http://localhost:82/ht';	// nodeè®¿é—®åŸºæœ¬è·¯å¾„
 
 error_reporting(E_ERROR & ~E_NOTICE);
 ini_set('date.timezone', 'asia/shanghai');

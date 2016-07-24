@@ -4,6 +4,8 @@ define('ADMIN_ROOT', dirname(__FILE__));
 ob_start('ob_output');
 set_error_handler('error_handler');
 set_exception_handler('exception_handler');
+//print_r('ADMIN_ROOT:'.ADMIN_ROOT);
+//print_r($_SERVER);exit;
 function ob_output($html) {
 	// 一些用户喜欢使用windows笔记本编辑文件，因此在输出时需要检查是否包含BOM头
 	if (ord(substr($html, 0, 1)) === 239 && ord(substr($html, 1, 2)) === 187 && ord(substr($html, 2, 1)) === 191) $html = substr($html, 3);
@@ -60,6 +62,9 @@ if (! function_exists ( 'getallheaders' )) {
 }
 require 'lib/DBAccess.lib.php';
 require 'lib/Object.lib.php';
+
+require 'lib/Data.lib.php'; // 投注中奖算法类
+
 require 'mod/AdminBase.class.php';
 require 'config.php';
 
