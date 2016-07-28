@@ -6,7 +6,7 @@
  * Date: 2016/7/19 0019
  * Time: 23:07
  */
-class Data
+class BetData
 {
     /**
      * 功能:获得投注数据中开奖号码的中奖注数
@@ -17,8 +17,8 @@ class Data
 
 
     /** K3和值
-     * @param $bets
-     * @param $kj
+     * @param $betData
+     * @param $kjData
      * @return int
      */
     public function k3hz($betData, $kjData){
@@ -64,7 +64,7 @@ class Data
 
         $data = explode(',',$kjData);
         sort($data);
-        $r = preg_match("/(?<k1>[\d])\k<k1>{1}/",join('',$data),$match);
+        $r = preg_match('/(?<k1>[\d])\k<k1>{1}/',join('',$data),$match);
         if($r)
             $strkj = $match[0];
 
@@ -77,7 +77,7 @@ class Data
         $data = explode(',',$kjData);
         sort($data);
         $data = join('',$data);
-        $r = preg_match("/(?<k1>[\d])\k<k1>{1}/",$data,$match);
+        $r = preg_match('/(?<k1>[\d])\k<k1>{1}/',$data,$match);
         if(!$r) return 0;
 
         $kjdb = $match[0];
@@ -95,10 +95,9 @@ class Data
      */
 
 
-
     /** 组合
-     * @param $array            备选数组
-     * @param $num              选取的个数
+     * @param $a                备选数组
+     * @param $m                选取的个数
      * @return array            组合
      */
 
@@ -196,19 +195,16 @@ class Data
     /**
      * 常用算法：zx
      *
-     * @params bet		投注列表：1 2 3 4 5 6
-     * @params data		开奖所需的号码：4,5,2
+     * @params $bet		投注列表：1 2 3 4 5 6
+     * @params $data    开奖所需的号码：4,5,2
      *
-     * @return 			返回中奖注数
+     * @return int		返回中奖注数
      */
-    public function zx($bet,$data){
+    public function zx($bet, $data){
         $bet = explode(' ',$bet);
         $data = explode(',',$data);
         sort($data);
-        $strDate = implode(',',$data);
-        return count(array_filter( combine($bet,count($data)),
-            funcion($var) use ($strDate){
-                    return !!($v == $strDate);
-        }));
+        $strData = implode(',',$data);
+        return count( array_filter( self::combina($bet,count($data)), function($v) use($strData){return !!($v == $strData);} ) );
     }
 }

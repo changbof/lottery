@@ -90,16 +90,18 @@ class Data extends AdminBase{
 		$para=$_POST;
 		$para['type']=intval($para['type']);
 		$para['key']=$this->encrypt_key;
-		
+        print_r($para);
 		$url=$GLOBALS['conf']['node']['access'] . '/data/add';
 		if(!$this->getValue("select data from {$this->prename}data where type={$para['type']} and number='{$para['number']}'")) $this->addLog(17,$this->adminLogType[17].'['.$para['data'].']', 0, $this->getValue("select shortName from {$this->prename}type where id=?",$para['type']).'[期号:'.$para['number'].']');
-		echo $this->http_post($url, $para);
+
+        echo $this->http_post($url, $para);
 	}
 
 	public final function updatedataed(){
 		$id=intval($_POST['id']);
 		$para['data']=$_POST['data'];
 		$sql="update {$this->prename}data set data='{$para['data']}' where id={$id}";
+
 		if($this->update($sql)){
 			echo '修改成功';
 		}
@@ -123,6 +125,7 @@ class Data extends AdminBase{
      *     number - 投注期号
      */
     public final function budget_lirun(){
+
         $bjAmount = $zjAmount = 0;  // 投注金额,中奖金额
 
         $LiRunLv = $this->settings['LiRunLv'] || 2 ; // 利润率 默认2%

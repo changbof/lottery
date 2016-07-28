@@ -1304,3 +1304,20 @@ function fabuxiaoxi(){
 		
 	});
 }
+
+/**
+ * 开奖号码试算
+ */
+
+function tryProfitsBefor(){
+
+}
+
+function tryProfitsSuccess(err, data){
+	if(err){
+		alert(err);
+	}else{
+		$(this).parent().dialog('destroy');
+		reload();
+	}
+}

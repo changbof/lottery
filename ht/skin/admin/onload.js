@@ -31,7 +31,6 @@ $(function(){
 	$('#sidebar ul.toggle a[href]').live('click', function(){
 		var arr=[],$this=$(this),url=$(this).attr('href');
 		if(url=='#') return false;
-		
 		load(url);
 		arr.unshift($this.text());
 		arr.unshift($this.closest('ul').prev().text().substr(0,4));
@@ -114,12 +113,13 @@ $(function(){
 	 * dataType：默认html，服务器响应类型，可用json，xml
 	 */
 	$('a[target=ajax]').live('click', function(){
+		alert('coming......');
 		var $this	= $(this),
 		self		= this,
 		onajax		= window[$this.attr('onajax')],
 		title		= $this.attr('title'),
 		call		= window[$this.attr('call')];
-		
+
 		if(title && !confirm(title)) return false;
 		
 		if(typeof call!='function'){
@@ -159,6 +159,7 @@ $(function(){
 			},
 			
 			success:function(data, textStatus, xhr, headers){
+				alert(data);
 				var errorMessage=xhr.getResponseHeader('X-Error-Message');
 				if(errorMessage){
 					call.call(self, decodeURIComponent(errorMessage), data);

@@ -1,7 +1,6 @@
 <?php
 	$para=$_GET;
 	if (!array_key_exists('actionNo', $para)) $para['actionNo'] = '';
-	
 	// 默认取今天的数据
 	if(isset($para['date']) && $para['date']){
 		$date=strtotime($para['date']);

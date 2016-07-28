@@ -18,10 +18,10 @@ class Object extends DBAccess{
 			$argc-=2;
 			$args=array_values($args);
 			if($__expire>0){
-				// ÆôÓÃ»º´æ
+				// å¯ç”¨ç¼“å­˜
 				$__cacheFile=$this->getCacheDir().md5($__tplfile.serialize($args));
 				if(is_file($__cacheFile) && filemtime($__cacheFile)+$__expire>$this->time){
-					// »º´æÓĞĞ§Ê±£¬Ö±½Ó¶Á»º´æ
+					// ç¼“å­˜æœ‰æ•ˆæ—¶ï¼Œç›´æ¥è¯»ç¼“å­˜
 					readfile($__cacheFile);
 				}else{
 					ob_start();
@@ -52,12 +52,12 @@ class Object extends DBAccess{
 			//file_put_contents($this->logFileName, date('[Y-m-d H:i:s] ', $this->time).var_export($message,true)."\r\n", FILE_APPEND);
 		}catch(Exception $e){
 			exception_handler($e);
-			//file_put_contents($this->sysLogFileName, date('[Y-m-d H:i:s] ', $this->time)."Ğ´ÓÃ»§ÈÕÖ¾ÎÄ¼ş{$this->debugLevel}³ö´í£º".$e->getmessage()."\r\n", FILE_APPEND);
+			//file_put_contents($this->sysLogFileName, date('[Y-m-d H:i:s] ', $this->time)."å†™ç”¨æˆ·æ—¥å¿—æ–‡ä»¶{$this->debugLevel}å‡ºé”™ï¼š".$e->getmessage()."\r\n", FILE_APPEND);
 		}
 	}
 
 	/**
-	 * »ñÈ¡À´·ÃIPµØÖ·
+	 * è·å–æ¥è®¿IPåœ°å€
 	 */
 	public static final function ip($outFormatAsLong=false){
 		if (isset($HTTP_SERVER_VARS['HTTP_X_FORWARDED_FOR']))
@@ -82,8 +82,8 @@ class Object extends DBAccess{
 	}
 	
 	/**
-	 * °Ñ¶ÔÏó×ª»»ÎªÊı×é
-	 * ¿ÉÒÔ×ª»»xml¶ÔÏó£¬Ê¹xml×ª»»³ÉÊı×é
+	 * æŠŠå¯¹è±¡è½¬æ¢ä¸ºæ•°ç»„
+	 * å¯ä»¥è½¬æ¢xmlå¯¹è±¡ï¼Œä½¿xmlè½¬æ¢æˆæ•°ç»„
 	 */
 	public static final function obj2arr($o){
 		if(is_object($o)) $o=get_object_vars($o);
@@ -121,7 +121,7 @@ class Object extends DBAccess{
 	}
 	
 	/**
-	 * Ìí¼ÓÈÕÖ¾
+	 * æ·»åŠ æ—¥å¿—
 	 */
 	public static final function log($obj, $file=null){
 	}
