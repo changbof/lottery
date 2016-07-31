@@ -113,12 +113,12 @@ $(function(){
 	 * dataType：默认html，服务器响应类型，可用json，xml
 	 */
 	$('a[target=ajax]').live('click', function(){
-		alert('coming......');
 		var $this	= $(this),
 		self		= this,
 		onajax		= window[$this.attr('onajax')],
 		title		= $this.attr('title'),
 		call		= window[$this.attr('call')];
+		var async   = $this.data('async') || true;
 
 		if(title && !confirm(title)) return false;
 		
@@ -142,7 +142,7 @@ $(function(){
 			url:$this.attr('href'),
 			
 			// 异步请求
-			async:true,
+			async:async,
 			
 			// 把当前存储的数据做为参数传递
 			data:$this.data(),
@@ -159,7 +159,6 @@ $(function(){
 			},
 			
 			success:function(data, textStatus, xhr, headers){
-				alert(data);
 				var errorMessage=xhr.getResponseHeader('X-Error-Message');
 				if(errorMessage){
 					call.call(self, decodeURIComponent(errorMessage), data);

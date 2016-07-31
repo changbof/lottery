@@ -62,7 +62,6 @@ if (! function_exists ( 'getallheaders' )) {
 }
 require 'lib/DBAccess.lib.php';
 require 'lib/Object.lib.php';
-require 'lib/BetData.lib.php'; // 投注中奖算法类 add by aboooo at 20160725
 require 'mod/AdminBase.class.php';
 require 'config.php';
 

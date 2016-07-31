@@ -14,8 +14,6 @@ class BetData
      *　function func(betData, kjData, betWeiShu)
      */
 
-
-
     /** K3和值
      * @param $betData
      * @param $kjData
@@ -31,6 +29,7 @@ class BetData
 
     // K3三同号单选
     public function k33dx($betData, $kjData){
+        print_r("I be coming...");
         $kjData = str_replace(',','',$kjData);
         return !!stripos($betData, $kjData) ? 1 : 0;
 

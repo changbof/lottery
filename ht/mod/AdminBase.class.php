@@ -107,6 +107,7 @@ class AdminBase extends Object{
 		$this->settings=array();
 		if($data=$this->getRows($sql)){
 			foreach($data as $var){
+			    if($var['name']=='LiRunLv') print_r($var['value']);
 				$this->settings[$var['name']]=$var['value'];
 			}
 		}
@@ -293,21 +294,27 @@ class AdminBase extends Object{
 			$actionNo=date('Ymd', $time).substr(1000+$actionNo,1);
 		}
 	}
-	
+
+    public function no0Hd(&$actionNo, &$actionTime, $time=null){
+        $this->setTimeNo($actionTime, $time);
+        $actionNo=date('Ymd', $time).substr(1000+$actionNo,1);
+        //$actionNo=date('Ymd-', $time).substr(1000+$actionNo,1);
+    }
+
+    public function no0Hd_1(&$actionNo, &$actionTime, $time=null){
+        $this->setTimeNo($actionTime, $time);
+        $actionNo=date('Ymd', $time).substr(100+$actionNo,1);
+    }
+
 	public function no0Hd_2(&$actionNo, &$actionTime, $time=null){
 		$this->setTimeNo($actionTime, $time);
 		$actionNo=date('Ymd', $time).substr(1000+$actionNo,1);
 	}
-	
-	public function no0Hd(&$actionNo, &$actionTime, $time=null){
-		$this->setTimeNo($actionTime, $time);
-		$actionNo=date('Ymd-', $time).substr(1000+$actionNo,1);
-	}
-	
-	public function no0Hd_1(&$actionNo, &$actionTime, $time=null){
-		$this->setTimeNo($actionTime, $time);
-		$actionNo=date('Ymd', $time).substr(100+$actionNo,1);
-	}
+
+    public function no0Hd_3(&$actionNo, &$actionTime, $time=null){
+        $this->setTimeNo($actionTime, $time);
+        $actionNo=date('ymd', $time).substr(100+$actionNo,1);
+    }
 	
 	public function pai3(&$actionNo, &$actionTime, $time=null){
 		$this->setTimeNo($actionTime, $time);
@@ -327,11 +334,6 @@ class AdminBase extends Object{
 		}
 		
 		$actionNo=date('Ymd', $time).substr(1000+$actionNo,1);
-	}
-	
-	public function no0Hd_3(&$actionNo, &$actionTime, $time=null){
-		$this->setTimeNo($actionTime, $time);
-		$actionNo=date('ymd', $time).substr(100+$actionNo,1);
 	}
 	
 	public function BJpk10(&$actionNo, &$actionTime, $time=null){

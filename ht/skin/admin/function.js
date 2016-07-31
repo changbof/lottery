@@ -1124,7 +1124,7 @@ function clearDataSuccess(err, msg){
 	if(err){
 		alert(err);
 	}else{
-		alert("成功清除！");;
+		alert("成功清除！");
 	}
 }
 
@@ -1145,7 +1145,7 @@ function clearDataSuccess2(err, msg){
 	if(err){
 		alert(err);
 	}else{
-		alert("成功清除！");;
+		alert("成功清除！");
 	}
 }
 
@@ -1308,16 +1308,19 @@ function fabuxiaoxi(){
 /**
  * 开奖号码试算
  */
-
 function tryProfitsBefor(){
-
+	var data = $(this).prev().val();
+	if(data.length<5){
+		return false;
+	}
+	$(this).data('data',data);
+	return true;
 }
 
 function tryProfitsSuccess(err, data){
 	if(err){
 		alert(err);
 	}else{
-		$(this).parent().dialog('destroy');
-		reload();
+		$('tr.msg_tips td',$(this).closest('table')).html(data.message);
 	}
 }

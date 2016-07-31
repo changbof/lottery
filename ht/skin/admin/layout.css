@@ -1,5 +1,5 @@
 /* Reset */
-html,div,map,dt,isindex,form,header,aside,section,section,article,footer{display:block;}
+html,div,map,dt,form,header,aside,section,section,article,footer{display:block;}
 html,body{height:100%;margin:0;padding:0;font-family:"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;background:#F8F8F8;font-size:12px;}
 
 .clear{clear:both;}
@@ -344,3 +344,6 @@ ul.pageinfo li.disabled{cursor:default;color:#999;background:#E6E6E6;}
 .t1 td,.t2 td,.up td {border:solid #ddd;border-width:0 1px 1px 0}
 
 .hasDatepicker{width:130px!important}
+
+#alt_profits{ border: 1px solid gray;border-radius: 4px;margin-left: 8px;padding: 1px 4px; text-decoration: none;}
+.msg_tips{padding:8px 5px;text-align:center;font-size:13px;color:#0099CC;}
