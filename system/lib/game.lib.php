@@ -191,10 +191,14 @@ class lib_game {
 	}
 	
 	private function no0Hd(&$actionNo, &$actionTime, $time=null) {
-		$this->setTimeNo($actionTime, $time);
-		$no = substr(1000 + $actionNo, 1);
-		if (substr($no, 0, 1) === '0') $no = substr($no, 1);
-		$actionNo = date('Ymd', $time).$no;
+//		$this->setTimeNo($actionTime, $time);
+//		$no = substr(1000 + $actionNo, 1);
+//		if (substr($no, 0, 1) === '0') $no = substr($no, 1);
+//		$actionNo = date('Ymd', $time).$no;
+        // 与后台保持一致 Modify by aboooo
+        $this->setTimeNo($actionTime, $time);
+        $actionNo=date('Ymd', $time).substr(1000+$actionNo,1);
+
 	}
 	
 	private function no0Hd_1(&$actionNo, &$actionTime, $time=null) {
