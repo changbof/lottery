@@ -5,7 +5,7 @@ $conf['debug']['level']=5;
 /*		数据库配置		*/
 $conf['db']['dsn'] = 'mysql:host=localhost;dbname=lottery;port=3307';
 $conf['db']['user'] = 'root';
-$conf['db']['password'] = '123456';
+$conf['db']['password'] = '123456@';
 $conf['db']['charset'] = 'utf8';
 $conf['db']['prename'] = 'lottery_';
 
