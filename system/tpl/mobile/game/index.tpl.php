@@ -1,12 +1,17 @@
 <input type="hidden" id="client_type" value="<?php echo $client_type  ?>" />
-<div class="hide" id="game-lottery" type="<?php echo $type_id;?>" ctype="<?php echo $types[$type_id]['type']?>"></div>
+
 <div id="game-play">
 	<div class="group">
 		<div class="name icon-th-large">
-			<div class="last right" id="countdown">
-				<div class="loading">倒计时正在准备中...</div>
-			</div>
 			<span><?php echo $types[$type_id]['title'];?></span>
+		</div>
+		<div class="info" id="waiting-tip">
+			<span id="kjsay" class="hide">开奖倒计时(<em class="kjtips">00:00</em>)</span>
+		</div>
+		<div id="game-lottery-mini" type="<?php echo $type_id;?>" ctype="<?php echo $types[$type_id]['type']?>">
+			<div class="lottery-container">
+				<div class="loading">开奖数据加载中，请稍候...</div>
+			</div>
 		</div>
 		<ul class="list" id="group_list">
 			<?php
@@ -16,9 +21,6 @@
 			<li><a data-id="<?php echo $group['id'];?>" href="javascript:;"<?php echo $class;?>><?php echo $group['groupName'];?></a></li>
 			<?php }?>
 		</ul>
-	</div>
-	<div class="info" id="waiting-tip">
-		<span id="kjsay" class="hide">开奖倒计时(<em class="kjtips">00:00</em>)</span>
 	</div>
 	<div class="play" class="hide">
 		<?php require(TPL.'/game/play_index.tpl.php');?>
@@ -77,7 +79,7 @@
 			</div>
         </div>
         <div id="play-work-bet">
-			<div class="bet-info icon-chart-bar">计: <span id="all-count">0</span>注，<span id="all-amount">0.00</span>元</div>
+			<div class="bet-info icon-chart-bar">共: <span id="all-count">0</span>注，<span id="all-amount">0.00</span>元</div>
 		</div>
         <div id="play-work-opt">
             <div class="opt">
@@ -156,7 +158,7 @@
 	$('btnClearBet').bind('click',lottery.game_remove_code);
 	// 开奖数据块首次加载
 	setTimeout(function() {
-		$.load('/game/lottery?id=<?php echo $type_id;?>&mode=0', '#countdown');
+		$.load('/game/lottery?id=<?php echo $type_id;?>&mode=0', '#game-lottery-mini .lottery-container');
 	}, 1000);
 	// 订单菜单下拉固定
 	beter.game_bets_menu_fixed();

@@ -10,7 +10,6 @@
 	<div class="body" id="game-lottery" type="<?php echo $type_id;?>" ctype="<?php echo $types[$type_id]['type']?>">
 		<div class="lottery-container clearfix">
 			<div class="loading hide">开奖数据加载中，请稍候...</div>
-
 			<?php
 			if ($lottery) {
 				$_lottery = $lottery;
@@ -149,7 +148,7 @@ $(function() {
 	lottery.get_loss_gain(game.type, '<?php echo $last['actionNo'];?>');
 	if (lottery.switcher.bets_fresh) lottery.bets_fresh();
 	<?php } else {?>
-	lottery.load_last_data();
+		lottery.load_last_data();
 	<?php }?>
 });
 </script>

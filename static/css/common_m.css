@@ -1,7 +1,7 @@
 body,p,button,h2,h3,pre{margin:0}
 a,input,textarea,button,select{outline:0}
 body,input,textarea,button,select{font:62.5% 'Century Gothic','Microsoft YaHei',Tahoma,Verdana,Arial,helvetica,sans-serif}
-body{color:#555;background:url(../image/bg.png) repeat top left fixed;width:auto}
+body{color:#000;background:url(../image/bg_m.png) repeat top left fixed;width:auto}
 a,input,textarea,button,select,.trans,.btn,
 #form #keywordList li,
 .cs-select>span,
@@ -29,7 +29,7 @@ a,input,textarea,button,select,.trans,.btn,
 a{text-decoration:none}
 textarea{resize:vertical}
 select:focus{border-color:#7a9cd3}
-input,select{border:1px solid #ddd;background-color:#f9f9f9;color:#666}
+input,select{border:1px solid #ddd;background-color:#f9f9f9;color:#888}
 input:focus,select:focus{background-color:#fff}
 img{border:none}
 ul,ol{list-style:none;padding:0;margin:0}
@@ -40,7 +40,7 @@ td.tleft{text-align:left!important}
 .right{float:right}
 .hide{display:none}
 .pr{position:relative}
-.gray{color:#999}
+.gray{color:#000}
 a.gray:hover{color:#666}
 .cs{cursor:pointer}
 .red{color:#d39c92}
@@ -101,7 +101,7 @@ div.cs-select:focus{outline:0}
 
 #main{padding:20px 0 30px;position:relative}
 
-#user-info{color:#666;font-size:1.3em;}
+#user-info{color:#000;font-size:1.3em;}
 #user-info .username{height:17px}
 #user-info .unval{float:left;width:148px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 #user-info .level:before{content:'vip';margin-right:2px}
@@ -117,7 +117,7 @@ div.cs-select:focus{outline:0}
 #dialogue.mid .dialogue-warp{margin-left:-100px;width:auto;}
 #dialogue .dialogue-warp .dialogue-head{background-color:#59a095;padding:10px;border-radius:3px 3px 0 0}
 #dialogue .dialogue-warp .dialogue-head .dialogue-title{font-size:1.3em;color:#efefef}
-#dialogue .dialogue-warp .dialogue-body{background-color:#fff;padding:5px;color:#666;min-height:32px;line-height:20px}
+#dialogue .dialogue-warp .dialogue-body{background-color:#fff;padding:5px;color:#000;min-height:32px;line-height:20px}
 #dialogue .dialogue-warp .dialogue-body pre{white-space:pre-wrap;}
 #dialogue .dialogue-warp .dialogue-body .dialogue-icon{float:left;margin-right:10px}
 #dialogue .dialogue-warp .dialogue-body .dialogue-icon:before{padding:6px 5px 4px;border:1px solid transparent;border-radius:50px;margin:0}
@@ -126,7 +126,7 @@ div.cs-select:focus{outline:0}
 #dialogue .dialogue-warp .dialogue-body .dialogue-text{padding:6px 10px;margin-left:52px;width:auto;border:1px solid #f9f2db;background-color:#fff9e4}
 #dialogue .dialogue-warp .dialogue-body .dialogue-text .btn{font-size:1.2em;line-height:normal;margin:0 5px;padding:0 7px}
 #dialogue .dialogue-warp .dialogue-foot{background-color:#f5f5f5;padding:10px 15px;border-radius:0 0 3px 3px;border-top:1px solid #f2f2f2;height:30px;line-height:30px}
-#dialogue .dialogue-warp .dialogue-foot .dialogue-auto{float:left;color:#999}
+#dialogue .dialogue-warp .dialogue-foot .dialogue-auto{float:left;color:#000}
 #dialogue .dialogue-warp .dialogue-foot .dialogue-auto .dialogue-sec{margin-right:5px}
 #dialogue .dialogue-warp .dialogue-foot button{padding:0 8px;height:28px;line-height:26px;font-size:1.2em;float:left;margin-left:15px}
 
@@ -141,7 +141,7 @@ div.cs-select:focus{outline:0}
 .common .head input,.common .head .select{color:#a9927a;border:none;background-color:#e4bf9c;padding:3px;margin-top:8px;font-size:1.5em}
 .common .head input:hover,.common .head input:focus,.common .head .select:hover{background-color:#dfb894}
 .common .head input.input{font-size:1.4em;padding:4px 10px;margin:8px 10px 0 0;float:left}
-.common .head .timer{float:left;position:relative;font-size:12px;color:#666;}
+.common .head .timer{float:left;position:relative;font-size:12px;color:#000;}
 .common .head .timer input{width:120px;background-color: #ffc;}
 .common .head .timer .icon{line-height:normal;color:#cba075;position:absolute;right:1px;top:10px}
 .common .head .sep{float:left;margin:0 8px;color:#bea387}
@@ -168,7 +168,7 @@ div.cs-select:focus{outline:0}
 .common .body{background-color:rgba(250,246,239,.75);padding:15px}
 .common .body pre{font-size:1.6em;color:#666;line-height:24px;margin:0;white-space:pre-wrap}
 .common .body .empty{padding:80px 0 120px}
-.common .body table{color:#777;background-color:rgba(250,222,195,.4);border-left:1px solid #fff;border-bottom:1px solid #fff}
+.common .body table{color:#333;background-color:rgba(250,222,195,.4);border-left:1px solid #fff;border-bottom:1px solid #fff}
 .common .body table tr.title{background-color:bisque;}
 .common .body table td{padding:7px 15px;text-align:center;border-right:1px solid #fff;border-top:1px solid #fff;font-size:12px;}
 .common .body table td a{color:#35928f;border-bottom:1px dotted transparent;margin:0 3px}
@@ -191,15 +191,15 @@ td.none{background-color:#1F1F20;color:#fff;}
 
 .common .addon{background-color:#f5ecdc;border-top:1px solid #f0e6d4}
 .common .addon.nb{border-top:none}
-.common .addon .list{color:#999;list-style-type:square;padding:20px 15px 20px 35px;line-height:26px}
+.common .addon .list{color:#000;list-style-type:square;padding:20px 15px 20px 35px;line-height:26px}
 .common .addon .list .btn{padding:0 8px;margin:0 5px;line-height:normal}
 .common .addon .list .color{margin:0 5px}
 
 #page{height:29px;margin:10px 0 0}
 #page a{border:1px solid #e5e5e5;background-color:rgba(250,248,245,.9);border-radius:3px;padding:5px 8px;color:#888;float:left;margin-right:4px}
-#page .info{line-height:29px;color:#999;float:left;margin-left:2px}
+#page .info{line-height:29px;color:#000;float:left;margin-left:2px}
 #page .info b{margin:0 3px}
-#page a:hover{background-color:rgba(242,238,231,.9);border-color:#e0e0e0;color:#999}
+#page a:hover{background-color:rgba(242,238,231,.9);border-color:#e0e0e0;color:#000}
 #page a.active{background-color:#d0a67e;border-color:#cba076;color:#fff}
 
 .xdsoft_datetimepicker {
@@ -499,7 +499,7 @@ td.none{background-color:#1F1F20;color:#fff;}
 	width: 14.2857142%;
 	background: #f5f5f5;
 	border: 1px solid #ddd;
-	color: #666;
+	color: #333;
 	font-size: 12px;
 	text-align: right;
 	vertical-align: middle;
@@ -577,7 +577,7 @@ td.none{background-color:#1F1F20;color:#fff;}
 .xdsoft_datetimepicker .xdsoft_calendar th {
 	font-weight: 700;
 	text-align: center;
-	color: #999;
+	color: #000;
 	cursor: default;
 }
 
@@ -633,7 +633,7 @@ td.none{background-color:#1F1F20;color:#fff;}
 .xdsoft_datetimepicker.xdsoft_dark .xdsoft_timepicker .xdsoft_time_box >div >div {
 	background: #0a0a0a;
 	border-top: 1px solid #222;
-	color: #999;
+	color: #000;
 }
 
 .xdsoft_datetimepicker.xdsoft_dark .xdsoft_label {
@@ -666,7 +666,7 @@ td.none{background-color:#1F1F20;color:#fff;}
 .xdsoft_datetimepicker.xdsoft_dark .xdsoft_calendar th {
 	background: #0a0a0a;
 	border: 1px solid #222;
-	color: #999;
+	color: #000;
 }
 
 .xdsoft_datetimepicker.xdsoft_dark .xdsoft_calendar th {

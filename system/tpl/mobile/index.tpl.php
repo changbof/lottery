@@ -45,7 +45,7 @@ var datetimepicker_opt = {
 				<div id="container_warp">
 					<script type="text/javascript">
 						$(function() {
-							$.load('/game/index?id=60', '#container_warp', {
+							$.load('/game/index?id=25', '#container_warp', {
 								callback: function() {
 									$.inited = true;
 								},
@@ -78,13 +78,13 @@ var datetimepicker_opt = {
 		<span class="nav play-nav">
             <a href="#" id="home" class="on" type-id='60'>澳门福彩</a>
             <ul class="play-nav-list hide">
-                <li><a href="/game/index?id=60" target="ajax" func="loadpage" class="icon-bookmark-empty" id="play-k3">澳门快3</a></li>
+                <li><a href="/game/index?id=25" target="ajax" func="loadpage" class="icon-bookmark-empty" id="play-k3">澳门快3</a></li>
                 <li><a href="/game/index?id=1" target="ajax" func="loadpage" class="icon-bookmark-empty" id="play-ssc">澳门时时彩</a></li>
             </ul>
         </span>
 		<span class="nav"><a href="/user/setting" target="ajax" func="loadpage" id="user-setting">我的账户</a></span>
 		<span class="nav"><a href="/bet/log" target="ajax" func="loadpage" id="bet-log">投注历史</a></span>
-		<span class="nav"><a href="/game/lottery?id=60&mode=1" target="ajax" func="loadpage" id="lottery-recent">开奖记录</a></span>
+		<span class="nav"><a href="/game/lottery?id=25&mode=1" target="ajax" func="loadpage" id="lottery-recent">开奖记录</a></span>
 		<span class="nav end"><a href="/sys/notice" target="ajax" func="loadpage" id="system-notice">系统公告</a></span>
 	</div>
 

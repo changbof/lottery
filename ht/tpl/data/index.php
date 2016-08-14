@@ -18,8 +18,6 @@
 	
 	$dateString=date('Y-m-d ');
 	
-	$sql="select * from {$this->prename}data where type={$this->type} and ";
-	
 	$sqlAmount="select sum(b.mode * b.beiShu * b.actionNum) betAmount, count(distinct(b.playedId)) facount, count(distinct(b.username)) useracount, sum(b.bonus) zjAmount, sum(b.fanDianAmount) fanDianAmount from lottery_bets b where type={$this->type} and b.isDelete=0";
 	$all=$this->getRow($sqlAmount);
 ?>

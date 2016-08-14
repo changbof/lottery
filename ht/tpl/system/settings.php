@@ -79,13 +79,11 @@
 			     $("input[name=fenmosi]").click(function(){if($(this).attr("checked")==true){$(this).val(1);}else{if(<? echo $this->settings['fenmosi'];?>==0){$(this).val(1);}else{$(this).val(0);}}})
 			     $("input[name=limosi]").click(function(){if($(this).attr("checked")==true){$(this).val(1);}else{if(<? echo $this->settings['limosi'];?>==0){$(this).val(1);}else{$(this).val(0);}}})
 		    </script>
-		    
-		   
-<tr>
-				<td>c</td>
+			<tr>
+				<td>系统彩种利润</td>
 				<td>
-					<label><input type="radio" value="2" name="LiRunLv" <?=$this->iff($this->settings['LiRunLv'],'checked="checked"')?>/>2%盈利<?=$this->settings['LiRunLv']?></label>
-					<label><input type="radio" value="-900" name="LiRunLv" <?=$this->iff($this->settings['LiRunLv']==-900,'checked="checked"')?>/>随机</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp设置好后须重启开将器才能生效
+					<label>系统盈利比例：<input type="number" value="<?=$this->settings['LiRunLv']?>" name="LiRunLv" style="width:40px;"/>%</label>
+					<label><input type="checkbox" readonly value="-900" name="LiRunLv" <?=$this->iff($this->settings['LiRunLv']==-900,'checked="checked"')?>/>随机</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp设置好后须重启开将器才能生效
 				</td>
 			</tr>
 			<tr>
