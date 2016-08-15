@@ -460,20 +460,22 @@ class mod_game extends mod {
 		$this->check_post();
 		$type_id = $this->get_id();
 		$mode = array_key_exists('mode', $_GET) ? $_GET['mode'] : '';
-		// 获取上期期号数据
+		// 获取上期期号数据(期号,开奖时间)
 		$last = core::lib('game')->get_game_last_no($type_id);
 		$actionNo = $last['actionNo'];
 		$sql = "SELECT `data` FROM `{$this->db_prefix}data` WHERE `type`={$type_id} AND `number`='{$actionNo}' LIMIT 1";
 		$lottery = $this->db->query($sql, 2);
 		$lottery = $lottery ? explode(',', $lottery['data']) : array();
-		// 获取下期期号数据
+		// 获取下期期号数据(期号,开奖时间)
 		$current = core::lib('game')->get_game_no($type_id);
 		$types = core::lib('game')->get_types();
-		// 获取开奖时间数据
-		$kjdTime = $types[$type_id]['data_ftime'];
-		$diffTime = strtotime($current['actionTime']) - $this->time - $kjdTime;
-		$kjDiffTime = strtotime($last['actionTime']) - $this->time;
-		// 获取开奖历史: 获取20期/10期(mobile)
+
+        // 获取开奖时间数据
+		$kjdTime = $types[$type_id]['data_ftime'];  // 开奖等待时间,即开奖前停止下注时间
+		$diffTime = strtotime($current['actionTime']) - $this->time - $kjdTime;  //投注结束剩余时间
+		$kjDiffTime = strtotime($last['actionTime']) - $this->time;   // 开奖剩余时间
+
+        // 获取开奖历史: 获取20期/10期(mobile)
 		$sql = "SELECT `time`,`number`,`data` FROM `{$this->db_prefix}data` WHERE `type`={$type_id} ORDER BY `id` DESC LIMIT ".$this->pagesize;
 		$history = $this->db->query($sql, 3);
 

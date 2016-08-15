@@ -677,7 +677,7 @@ $(function() {
 				});
 			}, loading_text);
 		},
-		// 开奖倒计时
+		// 封盘倒计时(投注截止倒计时)
 		countdown: function(diffTime, actionNo) {
 			var $dom = $('#timer_lottery');
 			var thisNo = $('#last_action_no').html();

@@ -38,7 +38,7 @@
 $(function() {
 	window.S = <?php echo json_encode($diffTime > 0);?>;    // 投注截止剩余时间
 	window.KS = <?php echo json_encode($kjDiffTime > 0);?>; // 开奖剩余时间
-	window.kjTime = parseInt(<?php echo json_encode($kjdTime);?>); // 开奖时间
+	window.kjTime = parseInt(<?php echo json_encode($kjdTime);?>); // 开奖时间,即开奖前停止下注后到开奖的一段时间
 	if (lottery.timer.T) clearTimeout(lottery.timer.T);
 	if (lottery.timer.KT) clearTimeout(lottery.timer.KT);
 	if (lottery.timer.moveno) clearInterval(lottery.timer.moveno);

@@ -35,10 +35,10 @@ class lib_game {
 		return $actionTime;
 	}
 	
-	/**
-	 * @name 获取延迟时间
-	 * @param int type_id 彩种ID
-	 */
+    /** 获取延迟时间(开奖前停止下注时间)
+     * @param $type_id int 彩种ID
+     * @return mixed
+     */
 	public function get_type_ftime($type_id) {
 		if (!array_key_exists($type_id, $this->ftimes)) {
 			$ftime = $this->db->query("SELECT `data_ftime` FROM `{$this->db_prefix}type` WHERE `id`=$type_id LIMIT 1", 2);
@@ -47,32 +47,38 @@ class lib_game {
 		}
 		return $this->ftimes[$type_id];
 	}
-	
-	// 期号格式化
+
+    /**
+     * @name 期号格式化 流水号若有两个"0",则替换为一个"0"
+     * @param $no
+     * @return mixed
+     */
 	private function no_format($no) {
 		$no = str_replace('-', '', $no);
-		$no = preg_replace('/[0]{2,}(\d{1,})$/', '0$1', $no);
+		//$no = preg_replace('/[0]{2,}(\d{1,})$/', '0$1', $no);  // modify by aboooo at 20160815
 		return $no;
 	}
-	
-	/**
-	 * @name 读取下期期号
-	 * @param int type_id 彩种ID
-	 * @param int time 时间，默认为当前时间
-	 */
+
+    /**
+     * @name 读取下期期号
+     * @param int type_id 彩种ID
+     * @param int time 时间，默认为当前时间
+     * @return PDOStatement
+     */
 	public function get_game_no($type_id, $time=null){
 		$type_id = intval($type_id);
 		if($time===null) $time = $this->time;
-		$ftime = $this->get_type_ftime($type_id);
+		$ftime = $this->get_type_ftime($type_id); // 取得玩法开奖前停止下注时间,如30秒
 		$action_time = date('H:i:s', $time + $ftime);
 		
 		$sql = "SELECT `actionNo`,`actionTime` FROM `{$this->db_prefix}data_time` WHERE `type`=$type_id AND `actionTime`>'$action_time' ORDER BY `actionTime` LIMIT 1";
 		$result = $this->db->query($sql, 2);
-		
+
+        // 若当前是一天中的最后一期,则查询不到下期期号,则取第二天的第一期期号,时间加上一天:24*3600
 		if(!$result){
 			$sql = "SELECT `actionNo`,`actionTime` FROM `{$this->db_prefix}data_time` WHERE `type`=$type_id ORDER BY `actionTime` LIMIT 1";
 			$result = $this->db->query($sql, 2);
-			$time = $time + 24 * 3600;
+			$time = $time + 24 * 3600;  // 这个时间有点问题?
 		}
 		
 		$types = $this->get_types();
@@ -97,7 +103,8 @@ class lib_game {
 		
 		$sql = "SELECT `actionNo`,`actionTime` FROM `{$this->db_prefix}data_time` WHERE `type`=$type_id AND `actionTime`<='$action_time' ORDER BY `actionTime` DESC LIMIT 1";
 		$result = $this->db->query($sql, 2);
-		
+
+        // 取上一天最后一期期号与开奖时间
 		if (!$result) {
 			$sql = "SELECT `actionNo`,`actionTime` FROM `{$this->db_prefix}data_time` WHERE `type`=$type_id ORDER BY `actionNo` DESC LIMIT 1";
 			$result = $this->db->query($sql, 2);
@@ -113,7 +120,7 @@ class lib_game {
 		return $result;
 	}
 	
-	// 获取近期期号
+	// 获取近期期号(往前期)
 	public function get_game_recent_no($type_id, $num) {
 		$type_id = intval($type_id);
 		$time = $this->time;
@@ -142,7 +149,7 @@ class lib_game {
 		return $result;
 	}
 	
-	// 获取近期期号
+	// 获取近期期号(往后期)
 	public function get_game_next_nos($type_id, $num) {
 		$type_id = intval($type_id);
 		$time = $this->time;
@@ -172,7 +179,11 @@ class lib_game {
 		
 		return $result;
 	}
-	
+
+    /**
+     * @param $actionTime 开奖时间
+     * @param null $time  开奖时间对应期数所在的日期
+     */
 	private function setTimeNo(&$actionTime, &$time=null) {
 		if (!preg_match('/^(\d{2}\:){2}\d{2}$/', $actionTime)) core::error('开奖时间表中时间数据错误');
 		if(!$time) $time = $this->time;
