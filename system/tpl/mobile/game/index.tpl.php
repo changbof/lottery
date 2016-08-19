@@ -8,7 +8,7 @@
 		<div class="info" id="waiting-tip">
 			<span id="kjsay" class="hide">开奖倒计时(<em class="kjtips">00:00</em>)</span>
 		</div>
-		<div id="game-lottery-mini" type="<?php echo $type_id;?>" ctype="<?php echo $types[$type_id]['type']?>">
+		<div id="game-lottery" type="<?php echo $type_id;?>" ctype="<?php echo $types[$type_id]['type']?>">
 			<div class="lottery-container">
 				<div class="loading">开奖数据加载中，请稍候...</div>
 			</div>
@@ -158,7 +158,7 @@
 	$('btnClearBet').bind('click',lottery.game_remove_code);
 	// 开奖数据块首次加载
 	setTimeout(function() {
-		$.load('/game/lottery?id=<?php echo $type_id;?>&mode=0', '#game-lottery-mini .lottery-container');
+		$.load('/game/lottery?id=<?php echo $type_id;?>&mode=0', '#game-lottery .lottery-container');
 	}, 1000);
 	// 订单菜单下拉固定
 	beter.game_bets_menu_fixed();

@@ -83,7 +83,7 @@
 				<td>系统彩种利润</td>
 				<td>
 					<label>系统盈利比例：<input type="number" value="<?=$this->settings['LiRunLv']?>" name="LiRunLv" style="width:40px;"/>%</label>
-					<label><input type="checkbox" readonly value="-900" name="LiRunLv" <?=$this->iff($this->settings['LiRunLv']==-900,'checked="checked"')?>/>随机</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp设置好后须重启开将器才能生效
+					<label>&nbsp;&nbsp;&nbsp;&nbsp;上下浮动<input type="number" value="<?=$this->settings['lrRange']?>" name="lrRange" style="width:40px;"/>%</label>&nbsp;&nbsp;(设置好后须重启开将器才能生效)
 				</td>
 			</tr>
 			<tr>

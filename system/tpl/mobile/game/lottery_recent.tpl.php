@@ -1,4 +1,5 @@
 <div id="lottery-dom" class="common clearfix">
+	<input type="hidden" id="mode" value="<?php echo $mode  ?>" />
 	<div class="head">
 		<div class="name icon-award">开奖记录：<?php echo $type_this['title'];?></div>
 		<div class="right">
