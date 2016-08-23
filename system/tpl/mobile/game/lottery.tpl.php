@@ -6,6 +6,7 @@
 		for ($i=0;$i<100;$i++) array_push($_lottery, 0);
 	}
 ?>
+<input type="hidden" id="mode" value="<?php echo $mode  ?>" />
 <div class="last">
 	<div class="time_tip icon-clock" title="投注截止计时">第 <span id="last_action_no"><?php echo $current['actionNo'];?></span>期封盘计时 </div>
 	<div id="timer_lottery">

@@ -493,6 +493,7 @@ class mod_game extends mod {
 			'diffTime' => $diffTime,
 			'kjDiffTime' => $kjDiffTime,
 			'history' => $history,
+            'mode' => $mode,
 		));
 	}
 	

@@ -738,7 +738,7 @@ $(function() {
 			}
 		},
 		/**
-		 * @name 开奖等待
+		 * @name 开奖等待提示
 		 * @param int time 等待时间
 		 */
 		waiting: function(time) {
@@ -758,7 +758,7 @@ $(function() {
 			}
 			if (Math.floor(mm) == 0 && Math.floor(ss) == 0) {
 				dom_kjsay.fadeOut(function() {
-					$(this).html('<em class="kjtips">开奖倒计时中...</em>').fadeIn();
+					$(this).html('<em class="kjtips">正在开奖中...</em>').fadeIn();
 				});
 			} else {
 				lottery.timer.KT = setTimeout(function() {
@@ -767,7 +767,7 @@ $(function() {
 			 }	
 		},
 		/**
-		 * @name 进入开奖模式
+		 * @name 进入开奖模式 开奖滚动
 		 */
 		start: function() {
 			if(!KS) $('#kjsay').html('<em class="kjtips">正在开奖中...</em>').fadeIn();
@@ -831,10 +831,12 @@ $(function() {
 			S = true;
 			KS = true;
 			$(".kj-hao").find("em").attr("flag", "normal");
+			$("#kjsay").addClass('hide');
 			if (lottery.timer.T) clearTimeout(lottery.timer.T);
 			if (lottery.timer.KT) clearTimeout(lottery.timer.KT);
 			if (lottery.timer.moveno) clearInterval(lottery.timer.moveno);
-			$.load('/game/lottery_recent?id=' + game.type, '#game-lottery .lottery-container');
+			mode = $('#mode').val();
+			$.load('/game/lottery?id=' + game.type + '&mode='+mode, '#game-lottery .lottery-container');
 		},
 		/**
 		 * @name 获取本期盈亏
@@ -863,8 +865,9 @@ $(function() {
 				success: function(data, textStatus, xhr) {
 					if (data === '1') {
 						try {
-							$('#btnPostBet').unbind('click');
-							$('#btnPostBet').bind('click',lottery.game_post_code);
+
+							//$('#btnPostBet').unbind('click');
+							//$('#btnPostBet').bind('click',lottery.game_post_code);
 							lottery.switcher.bets_fresh = true;
 							lottery.fresh();
 						} catch(err) {

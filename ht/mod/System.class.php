@@ -35,6 +35,8 @@ class System extends AdminBase{
 		if(!ctype_digit($para['limosi'])) throw new Exception('请正确投注模式!');
 		if(!is_numeric($para['LiRunLv'])) throw new Exception('请正确设置系统彩利率!');
 		if(!ctype_digit($para['LiRunLv'])) throw new Exception('请正确设置系统彩利率!');
+        if(!is_numeric($para['lrRange'])) throw new Exception('请正确设置利率浮动比例!');
+        if(!ctype_digit($para['lrRange'])) throw new Exception('请正确设置利率浮动比例!');
 		
 		foreach($para as $key=>$var){
 			if($var==$this->settings[$key]) continue;
@@ -45,7 +47,7 @@ class System extends AdminBase{
 		if(!$i) throw new Exception('数据没有改变');
 		$sql=rtrim($sql,',');
 		$sql.=' on duplicate key update `value`=values(`value`)';
-		
+		print_r(sql);
 		if($this->insert($sql)){
 			$this->addLog(10,$this->adminLogType[10]);
 			return $this->getSystemSettings(0);
