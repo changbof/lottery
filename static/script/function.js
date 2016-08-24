@@ -527,7 +527,7 @@ $(function() {
 		// 确认投注
 		game_post_code: function() {
 			var bets = $('#bets-cart tr');
-			var loading_text = '准备投注数据中，请稍候...';
+			var loading_text = '准备投注数据中，请稍后...';
 			if (bets.length === 1) {
 				$.error('您还未添加预投注');
 				return false;
@@ -647,7 +647,7 @@ $(function() {
 											}
 										},
 									});
-								}, '正在提交投注，请稍候...');
+								}, '正在提交投注，请稍后...');
 							},
 						},
 						no: {text: '取消投注'},
@@ -2561,7 +2561,7 @@ $(function() {
 							loadpage.close();
 						},
 					});
-				}, '提交撤单请求中，请稍候...');
+				}, '提交撤单请求中，请稍后...');
 			} else {
 				$.error('您还没有选择任何下注');
 			}
@@ -2588,7 +2588,7 @@ $(function() {
 						});
 					},
 				});
-			}, '提交撤单请求中，请稍候...');
+			}, '提交撤单请求中，请稍后...');
 		},
 	};
 	lottery._notice();
@@ -2718,7 +2718,7 @@ $(function() {
 			};
 		},
 		before: function(callback, text) {
-			loadpage.loading.warp.text(text||'正在努力加载中，请稍候...');
+			loadpage.loading.warp.text(text||'正在努力加载中，请稍后...');
 			loadpage.loading.self.fadeIn(callback);
 		},
 		close: function(callback) {
@@ -2759,7 +2759,7 @@ $(function() {
 	// form_submit: 表单提交
 	window.form_submit = {
 		before: function(callback) {
-			loadpage.before(callback, '数据正在提交中，请稍候...');
+			loadpage.before(callback, '数据正在提交中，请稍后...');
 		},
 		call: function(error, success) {
 			var $this = $(this);
@@ -2804,7 +2804,7 @@ $(function() {
 			return true;
 		},
 		before: function(callback) {
-			loadpage.before(callback, '申请提现请求中，请稍候...');
+			loadpage.before(callback, '申请提现请求中，请稍后...');
 		},
 		call: function(error, success) {
 			loadpage.close(function() {

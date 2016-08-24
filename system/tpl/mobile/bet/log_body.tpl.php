@@ -13,8 +13,8 @@
 			$this_type = $types[$v['type']];
 	?>
 	<tr>
-		<td><?php echo date('H:i:s', $v['actionTime']);?></td>
-		<td><?php echo array_key_exists('shortName', $this_type) ? $this_type['shortName'] : $this_type['title'];?>-<?php echo $plays[$v['playedId']]['name'];?></td>
+		<td><a href="/bet/info?id=<?php echo $v['id'];?>" title="投注信息" target="ajax" func="loadpage"><?php echo date('H:i:s', $v['actionTime']);?></a></td>
+		<td><?php echo $plays[$v['playedId']]['name'];?></td>
 		<td><?php echo $v['beiShu'];?> [<?php echo $this->modes[$v['mode']];?>]</td>
 		<td><?php echo $v['mode'] * $v['beiShu'] * $v['actionNum'];?></td>
 		<td><?php echo $v['lotteryNo'] ? number_format($v['bonus'], 2, '.', '') : '0.00';?></td>

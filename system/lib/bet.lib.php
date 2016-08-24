@@ -1139,8 +1139,7 @@ class lib_bet {
 	// K3和值
 	public function k3hz($bet){
 		$check=array('3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18');
-		$bet1=explode(' ', $bet);
-        $a=array_unique($bet1);
+		$bet1=explode(' ', $bet);$a=array_unique($bet1);
 		if(count($bet1)!=count($a) || count($bet1)>16 || count($bet1)<1) return 0;
 		foreach($bet1 as $bets){
 			if(!in_array($bets,$check)) return 0;

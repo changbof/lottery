@@ -1,18 +1,300 @@
 [MSG]: Division by zero
-[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
 [LINE]: 258
-[TIME]: 2016-07-12 10:56:53
+[TIME]: 2016-07-12 10:26:31
 [URI]: /game/submit
 
 [MSG]: Division by zero
-[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
 [LINE]: 258
-[TIME]: 2016-07-12 11:06:57
+[TIME]: 2016-07-12 10:27:24
 [URI]: /game/submit
 
 [MSG]: Division by zero
-[FILE]: D:\Server\upupw_magento\htdocs\system\mod\game.mod.php
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
 [LINE]: 258
-[TIME]: 2016-07-12 11:09:25
+[TIME]: 2016-07-12 10:34:24
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 10:35:06
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 10:42:50
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 10:43:29
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 10:48:24
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 13:27:07
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 13:34:06
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 13:51:38
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 15:14:00
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 15:17:14
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 15:49:51
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 15:53:58
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 15:56:39
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:00:33
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:04:14
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:04:35
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:06:02
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:07:00
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:08:43
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:14:08
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:15:57
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:27:44
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:28:33
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:29:00
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:34:33
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:38:23
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:43:48
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:56:17
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:56:26
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 16:56:33
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 17:00:01
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 17:08:49
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 17:09:53
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 17:15:20
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 17:18:02
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 17:23:54
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 17:24:33
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 17:40:10
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 17:44:52
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 17:48:49
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 17:54:05
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 17:56:14
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 18:12:56
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 21:26:30
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 22:17:45
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 22:20:21
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 22:22:20
+[URI]: /game/submit
+
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-12 23:54:08
 [URI]: /game/submit
 

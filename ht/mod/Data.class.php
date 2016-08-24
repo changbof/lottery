@@ -92,8 +92,6 @@ class Data extends AdminBase{
 		$para['key']=$this->encrypt_key;
 
 		$url=$GLOBALS['conf']['node']['access'] . '/data/add';
-
-
 		if(!$this->getValue("select data from {$this->prename}data where type={$para['type']} and number='{$para['number']}'")) $this->addLog(17,$this->adminLogType[17].'['.$para['data'].']', 0, $this->getValue("select shortName from {$this->prename}type where id=?",$para['type']).'[期号:'.$para['number'].']');
 
         echo $this->http_post($url, $para);

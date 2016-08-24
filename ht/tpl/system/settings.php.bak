@@ -81,13 +81,11 @@
 		    </script>
 		    
 		   
-	<tr>
+<tr>
 				<td>系统彩种利润</td>
 				<td>
-					<label>系统盈利比例：<input type="number" value="<?=$this->settings['LiRunLv']?>" name="LiRunLv"/>%，</label>
-					<label><input type="radio" value="2" name="LiRunLv" <?=$this->iff($this->settings['LiRunLv'],'checked="checked"')?>/>2%盈利<?=$this->settings['LiRunLv']?></label>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<label>超过：<input type="number" value="<?=$this->settings['liRuncount']?>" name="liRuncount"/>人玩系统彩才使用【系统盈利比例】开奖</label><br><br>
+					<label>系统盈利比例：<input type="number" value="<?=$this->settings['LiRunLv']?>" name="LiRunLv" style="width:40px;"/>%</label>
+					<label>&nbsp;&nbsp;&nbsp;&nbsp;上下浮动<input type="number" value="<?=$this->settings['lrRange']?>" name="lrRange" style="width:40px;"/>%</label>&nbsp;&nbsp;(设置好后须重启开将器才能生效)
 				</td>
 			</tr>
 			<tr>
@@ -114,6 +112,11 @@
                 	　最大中奖：<input type="text" class="textWid1" value="<?=$this->settings['betMaxZjAmount']?>" name="betMaxZjAmount"/>元
                 </td>
 			</tr>
+			<tr>
+				<td>每期最大投注金额限制</td>
+				<td><input type="text" class="textWid1" value="<?=$this->settings['betMaxAmount']?>" name="betMaxAmount"/>元 ( 每人每期最大投注金额 )</td>
+			</tr>
+			
 			<tr>
 				<td>充值限制</td>
 				<td>

@@ -3,8 +3,6 @@
 <input type="hidden" name="type" value="<?php echo $type_id;?>" />
 <div class="zhixu115 unique">
     <div class="pp pp11" action="tzAllSelect" length="2" delimiter=" ">
-        <div class="title">同号</div>
-        &nbsp;
         <input type="button" value="11" class="code" />
         <input type="button" value="22" class="code" />
         <input type="button" value="33" class="code" />
@@ -14,8 +12,6 @@
     
     </div>
     <div class="pp pp11" action="tzAllSelect" length="2" delimiter=" ">
-        <div class="title">不同号</div>
-        &nbsp;
         <input type="button" value="1" class="code" />
         <input type="button" value="2" class="code" />
         <input type="button" value="3" class="code" />

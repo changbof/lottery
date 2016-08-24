@@ -1,90 +1,60 @@
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:24:26
-[URI]: /game/index?id=60
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-06 09:51:19
+[URI]: /game/submit
 
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:27:00
-[URI]: /game/index?id=60
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-06 09:52:59
+[URI]: /game/submit
 
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:30:09
-[URI]: /game/index?id=60
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-06 09:53:20
+[URI]: /game/submit
 
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:30:19
-[URI]: /game/index?id=60
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-06 18:49:06
+[URI]: /game/submit
 
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:30:33
-[URI]: /game/index?id=60
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-06 18:50:56
+[URI]: /game/submit
 
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:31:06
-[URI]: /game/index?id=60
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-06 23:08:58
+[URI]: /game/submit
 
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:33:38
-[URI]: /game/index?id=60
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-06 23:09:21
+[URI]: /game/submit
 
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:35:15
-[URI]: /game/index?id=60
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-06 23:09:36
+[URI]: /game/submit
 
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:36:44
-[URI]: /game/index?id=60
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-06 23:12:46
+[URI]: /game/submit
 
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:37:52
-[URI]: /game/index?id=60
-
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:38:35
-[URI]: /game/index?id=60
-
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:40:08
-[URI]: /game/index?id=60
-
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 11
-[TIME]: 2016-07-06 02:41:08
-[URI]: /game/index?id=60
-
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 8
-[TIME]: 2016-07-06 21:49:02
-[URI]: /game/index?id=60
-
-[MSG]: Undefined variable: current
-[FILE]: D:\Server\upupw_magento\htdocs\system\tpl\mobile\game\index.tpl.php
-[LINE]: 7
-[TIME]: 2016-07-06 22:05:19
-[URI]: /game/index?id=60
+[MSG]: Division by zero
+[FILE]: D:\php\upupw_magento\htdocs\system\mod\game.mod.php
+[LINE]: 258
+[TIME]: 2016-07-06 23:29:31
+[URI]: /game/submit
 

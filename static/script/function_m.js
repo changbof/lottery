@@ -669,7 +669,7 @@ $(function() {
 						no: {
 							text: '取消投注',
 							func: function () {
-                                $('#bets-cart table').find('tr:gt(0)').remove();
+                $('#bets-cart table').find('tr:gt(0)').remove();
 								lottery.calc_amount();
                             }
 						},
@@ -770,6 +770,8 @@ $(function() {
 		 * @name 进入开奖模式 开奖滚动
 		 */
 		start: function() {
+			clearInterval(lottery.reload_fresh);
+			lottery.reload_se();//显示色子;
 			if(!KS) $('#kjsay').html('<em class="kjtips">正在开奖中...</em>').fadeIn();
 			var ctype=$('.kj-hao').attr('ctype');
 			$('.kj-hao').find('em').attr('flag', 'move');
@@ -824,6 +826,25 @@ $(function() {
 				}, 40);
 			}
 		},
+		//刷新开奖区域
+		reload_fresh: function(){
+			mode = $('#mode').val();
+			$.load('/game/lottery?id=' + game.type + '&mode='+mode, '#game-lottery .lottery-container');
+			$("#kjsay").hide();
+		},
+		reload_se: function(){
+			$('#side_1').addClass("gif");
+			$('#side_2').addClass("gif");
+			$('#side_3').addClass("gif");
+			$('#side_1').html('');
+			$('#side_2').html('');
+			$('#side_3').html('');
+		},
+		reset_se: function(){
+			$('#side_1').removeClass("gif");
+			$('#side_2').removeClass("gif");
+			$('#side_3').removeClass("gif");
+		},
 		/**
 		 * @name 刷新开奖数据
 		 */
@@ -831,12 +852,13 @@ $(function() {
 			S = true;
 			KS = true;
 			$(".kj-hao").find("em").attr("flag", "normal");
-			$("#kjsay").addClass('hide');
+			$("#kjsay").hide();
 			if (lottery.timer.T) clearTimeout(lottery.timer.T);
 			if (lottery.timer.KT) clearTimeout(lottery.timer.KT);
 			if (lottery.timer.moveno) clearInterval(lottery.timer.moveno);
 			mode = $('#mode').val();
 			$.load('/game/lottery?id=' + game.type + '&mode='+mode, '#game-lottery .lottery-container');
+			lottery.reset_se();//去除色子滚动
 		},
 		/**
 		 * @name 获取本期盈亏

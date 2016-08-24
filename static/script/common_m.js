@@ -170,12 +170,13 @@ $(function() {
 					if(h < 500) {
 						height = '-5.5em';
 					}else height = '-4em';
+						
 					var width = dom_warp.width();
 					var w = $(window).width();
 					if(w > 400) {
 						width = 400;
 					}else width = w - 20;
-					dom_warp.animate({'width': width + 'px', 'margin-left': '-' + (width / 2) + 'px','margin-top': height });
+					dom_warp.animate({'width': width + 'px', 'margin-left': '-' + (width / 2) + 'px','margin-top':height});
 				});
 			}
 		};

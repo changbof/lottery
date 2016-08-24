@@ -79,7 +79,9 @@
 			     $("input[name=fenmosi]").click(function(){if($(this).attr("checked")==true){$(this).val(1);}else{if(<? echo $this->settings['fenmosi'];?>==0){$(this).val(1);}else{$(this).val(0);}}})
 			     $("input[name=limosi]").click(function(){if($(this).attr("checked")==true){$(this).val(1);}else{if(<? echo $this->settings['limosi'];?>==0){$(this).val(1);}else{$(this).val(0);}}})
 		    </script>
-			<tr>
+		    
+		   
+<tr>
 				<td>系统彩种利润</td>
 				<td>
 					<label>系统盈利比例：<input type="number" value="<?=$this->settings['LiRunLv']?>" name="LiRunLv" style="width:40px;"/>%</label>
@@ -110,6 +112,11 @@
                 	　最大中奖：<input type="text" class="textWid1" value="<?=$this->settings['betMaxZjAmount']?>" name="betMaxZjAmount"/>元
                 </td>
 			</tr>
+			<tr>
+				<td>每期最大投注金额限制</td>
+				<td><input type="text" class="textWid1" value="<?=$this->settings['betMaxAmount']?>" name="betMaxAmount"/>元 ( 每人每期最大投注金额。 &nbsp;&nbsp;设置好后须重启开将器才能生效)</td>
+			</tr>
+			
 			<tr>
 				<td>充值限制</td>
 				<td>

@@ -27,7 +27,7 @@
 #lottery-dom #game-lottery  .current .num_right_k3 em{ line-height: 30px;height: 30px;width: 30px;margin-right: 10px;font-size: 20px;color:red;}
 
 
-#group_list{font-size:1.3em;height:60px;margin-left:0.2em;}
+#group_list{font-size:1.3em;min-height:30px;height:auto;margin-left:0.2em;}
 #group_list li{float:left}
 #group_list a{float:left;height:30px;line-height:30px;color:#fafafa;padding:0 10px;}
 #group_list a:hover{background-color:rgba(85,85,85,.5)}
@@ -261,10 +261,14 @@
 
 #cp .play-nav{position:relative;float:left}
 a#home{position:relative}
-a#home:after{content:'^';position:absolute;left:45%;top:-10px;margin:0;color:black;}
+/*a#home:after{content:'^';position:absolute;left:45%;top:-10px;margin:0;color:black;} */
 #cp .play-nav-list{position:absolute;bottom:39px;left:0;width:118px;z-index:2;text-align:left;padding:1px;background:#F90;}
 #cp .play-nav-list a{display:block;padding:5px 10px 5px 5px;width:103px;}
 #cp .play-nav-list a:hover,
 #cp .play-nav-list a.on{background-color:#FFF;}
 
 .common .body table tr.head{height:20px;line-height:20px;font-size:13px;}
+
+#side {float:left; width:108px; margin-left:20px;}
+	#side_1,#side_2,#side_3 {float:left; width:36px; height:36px;}
+		.gif {background:url(../image/se.gif);}

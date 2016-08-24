@@ -75,32 +75,11 @@ var datetimepicker_opt = {
 		</div>
 	</div>
 	<div id="cp">
-		<span class="nav play-nav">
-            <a href="#" id="home" class="on" type-id='60'>澳门福彩</a>
-            <ul class="play-nav-list hide">
-                <li><a href="/game/index?id=25" target="ajax" func="loadpage" class="icon-bookmark-empty" id="play-k3">澳门快3</a></li>
-                <li><a href="/game/index?id=1" target="ajax" func="loadpage" class="icon-bookmark-empty" id="play-ssc">澳门时时彩</a></li>
-            </ul>
-        </span>
+		<span class="nav"><a href="/game/index?id=25" target="ajax" func="loadpage" id="home" class="on" type-id='25'>澳门福彩</a></span>
 		<span class="nav"><a href="/user/setting" target="ajax" func="loadpage" id="user-setting">我的账户</a></span>
 		<span class="nav"><a href="/bet/log" target="ajax" func="loadpage" id="bet-log">投注历史</a></span>
 		<span class="nav"><a href="/game/lottery?id=25&mode=1" target="ajax" func="loadpage" id="lottery-recent">开奖记录</a></span>
 		<span class="nav end"><a href="/sys/notice" target="ajax" func="loadpage" id="system-notice">系统公告</a></span>
 	</div>
-
-
-    <script type="text/javascript">
-        $(function() {
-            // 代理中心下拉菜单
-            var game_nav = $('#cp .play-nav');
-            if (game_nav.length > 0) {
-                game_nav.hover(function() {
-                    $(this).find('.play-nav-list').fadeIn(218);
-                }, function() {
-                    $(this).find('.play-nav-list').fadeOut(218);
-                });
-            };
-        });
-    </script>
 </body>
 </html>

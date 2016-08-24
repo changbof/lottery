@@ -37,9 +37,14 @@
 
 <script type="text/javascript">
 $(function() {
+	lottery.reset_se();//去除色子滚动
+	$('#side_1').html("<img src='/static/image/<?php echo intval($_lottery[0]);?>.gif'>");
+	$('#side_2').html("<img src='/static/image/<?php echo intval($_lottery[1]);?>.gif'>");
+	$('#side_3').html("<img src='/static/image/<?php echo intval($_lottery[2]);?>.gif'>");
+	
 	window.S = <?php echo json_encode($diffTime > 0);?>;    // 投注截止剩余时间
 	window.KS = <?php echo json_encode($kjDiffTime > 0);?>; // 开奖剩余时间
-	window.kjTime = parseInt(<?php echo json_encode($kjdTime);?>); // 开奖时间,即开奖前停止下注后到开奖的一段时间
+	window.kjTime = parseInt(<?php echo json_encode($kjdTime);?>); // 开奖时间
 	if (lottery.timer.T) clearTimeout(lottery.timer.T);
 	if (lottery.timer.KT) clearTimeout(lottery.timer.KT);
 	if (lottery.timer.moveno) clearInterval(lottery.timer.moveno);
@@ -47,16 +52,16 @@ $(function() {
 		lottery.countdown(<?php echo $diffTime;?>);  //投注截止倒计时
 	}, 1000);
 	<?php if($kjDiffTime > 0){?> 
-		lottery.timer.KT = setTimeout(function() {
-			lottery.waiting(<?php echo $kjDiffTime;?>);  //开奖等待
-		}, 1000);
+	lottery.timer.KT = setTimeout(function() {
+		lottery.waiting(<?php echo $kjDiffTime;?>);  //开奖等待
+	}, 1000);
 	<?php }?>
 	<?php if($lottery){?>
-		voice.play('/static/sound/voice-lottery.wav', 'voice-lottery');
-		lottery.get_loss_gain(game.type, '<?php echo $last['actionNo'];?>');
-		if (lottery.switcher.bets_fresh) lottery.bets_fresh();
+	voice.play('/static/sound/voice-lottery.wav', 'voice-lottery');
+	lottery.get_loss_gain(game.type, '<?php echo $last['actionNo'];?>');
+	if (lottery.switcher.bets_fresh) lottery.bets_fresh();
 	<?php } else {?>
-		lottery.load_last_data();
+	lottery.load_last_data();
 	<?php }?>
 });
 </script>

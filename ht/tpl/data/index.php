@@ -61,6 +61,7 @@
 				$count=array();
 				$dateString=date('Y-m-d ', $date);
 				$search_result = false;
+				$AOU = 'add';
 				foreach($times['data'] as $var){
 					$actionData = $this->getGameLastNo($this->type, $var['actionNo'], $var['actionTime'], $date);
 					if ($para['actionNo']) {
@@ -73,9 +74,11 @@
 					$number = $actionData['actionNo'];
 					$sql="select * from {$this->prename}data where type={$this->type} and number='$number'";
 					$data=$this->getRow($sql);
-					if($data['data']){
+					if(isset($data['data'])){
+						$AOU = 'update';
 						$amountData=$this->getRow($sqlAmount." and actionNo=?",$data['number']);
 					}else{
+						$AOU = 'add';
 						$amountData=array(
 							'facount' => 0,
 							'useracount' => 0,
@@ -102,7 +105,7 @@
 				<td><?=$this->ifs($amountData['zjAmount'], '--')?></td>
 				<td><?=$this->ifs($amountData['fanDianAmount'], '--')?></td>
 				<td>
-				    <?php if($data && $data['data']){ ?>
+				    <?php if($AOU == 'update'){ ?>
 					<a href="/index.php/data/updatedata/<?=$this->type?>/<?=$var['actionNo']?>/<?=$dateString.$var['actionTime']?>" target="modal" width="340" title="添加开奖号码" modal="true" button="确定:dataAddCode|取消:defaultCloseModal">修改</a>
 					<a href="/index.php/data/kj" target="ajax" data-type="<?=$typeInfo['id']?>" data-number="<?=$data['number']?>" data-time="<?=$dateString.$var['actionTime']?>" data-data="<?=$data['data']?>" onajax="setKjData" call="setKj" title="重新对没有开奖的投注开奖">开奖</a>
 					<?}else{?>

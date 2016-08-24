@@ -70,7 +70,7 @@ class mod_bet extends mod {
 		$plays = $this->get_plays();
 		$html  = '<div class="detail">';
 		$html .= '<table cellpadding="0" cellspacing="0" width="100%">';
-
+		
 		if($this->client_type=='mobile'){
 			$html .= '<tr>';
 			$html .= '<td class="k" width="30%">彩种</td>';
@@ -196,7 +196,7 @@ class mod_bet extends mod {
 			$html .= '</td>';
 			$html .= '</tr>';
 		}
-
+		
 		$html .= '</table>';
 		$html .= '</div>';
 		$this->dialogue(array(

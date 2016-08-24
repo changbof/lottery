@@ -79,7 +79,7 @@
 			</div>
         </div>
         <div id="play-work-bet">
-			<div class="bet-info icon-chart-bar">共: <span id="all-count">0</span>注，<span id="all-amount">0.00</span>元</div>
+			<div class="bet-info icon-chart-bar" style="float:left;">共: <span id="all-count">0</span>注，<span id="all-amount">0.00</span>元</div><div id="side"><div id="side_1" class=""></div><div id="side_2" class=""></div><div id="side_3" class=""></div></div>
 		</div>
         <div id="play-work-opt">
             <div class="opt">
@@ -164,5 +164,6 @@
 	beter.game_bets_menu_fixed();
 	// 订单选择
 	beter.bet_select();
+	setInterval(lottery.reload_fresh, 30000);
 })();
 </script>

@@ -17,6 +17,15 @@ class mod_game extends mod {
 		return $this->db->query($sql, 3);
 	}
 	
+	// 获取用户在指定彩种的某期的投注金额
+	public function get_amount_bets($type_id,$actionNo) {
+		$recentNo = core::lib('game')->get_game_recent_no($type_id, 5);
+		$actionNo = $actionNo;
+		$uid = $this->user['uid'];
+		$sql = "select sum(actionNum*beiShu) as amount from `{$this->db_prefix}bets` where `type`=25 and `uid`=27 and `actionNo`='{$actionNo}'";
+		return $this->db->query($sql, 3);
+	}
+	
 	public function index() {
 		//print_r($this->client_type);
 		if (!array_key_exists('id', $_GET)) $_GET['id'] = 1; // 默认加载重庆时时彩
@@ -218,9 +227,9 @@ class mod_game extends mod {
 			// 检查时间、期数(2)
 			if (!array_key_exists('type', $code) || !core::lib('validate')->number($code['type'])) core::__403();
 			$code['type'] = intval($code['type']);
-		    $ftime2 = core::lib('game')->get_type_ftime($code['type']);  // 封单时间
-		    $actionTime2 = core::lib('game')->get_game_current_time($code['type']);  // 当期时间
-		    $actionNo2 = core::lib('game')->get_game_no($code['type']);  // 当期期数
+		  $ftime2 = core::lib('game')->get_type_ftime($code['type']);  // 封单时间
+		  $actionTime2 = core::lib('game')->get_game_current_time($code['type']);  // 当期时间
+		  $actionNo2 = core::lib('game')->get_game_no($code['type']);  // 当期期数
 			if (
 				$actionTime2 != $para['kjTime'] ||
 				$actionNo2['actionNo'] != $para['actionNo'] ||
@@ -235,11 +244,11 @@ class mod_game extends mod {
 			$bonusPropBase = number_format($played['bonusPropBase'] * $proportion, 2, '.', '');
 			// 检查开启
 			if(!$played['enable']) core::error('游戏玩法组已被禁用，请刷新后重新投注');
-            // 检查ID
+      // 检查ID
 			if (!array_key_exists($code['type'], $types)) core::error('您提交的彩种不存在或已被禁用');
 			if ($played['type'] != $types[$code['type']]['type']) core::__403();
 			if (!array_key_exists('playedGroup', $code) || !core::lib('validate')->number($code['playedGroup'])) core::__403();
-            if ($played['groupId'] != $code['playedGroup']) core::__403();
+      if ($played['groupId'] != $code['playedGroup']) core::__403();
 			if ($played['id'] != $code['playedId']) core::__403();
 			// 检查赔率和返点
 			if (!array_key_exists('bonusProp', $code) || !core::lib('validate')->number_float($code['bonusProp'], 2)) core::__403();
@@ -286,15 +295,15 @@ class mod_game extends mod {
 				if ($code['actionNum'] != core::lib('bet')->$betCountFun($code['actionData'])) core::error('下单失败，您投注号码不符合投注规则，请重新投注');
 			}
 			// 最大注数检查
-            $maxcount = $played['maxcount'];
+      $maxcount = $played['maxcount'];
 			$playedname = $played['name'];
-            if ($code['actionNum'] > $maxcount) core::error('['.$playedname.']投注上限为<span class="btn btn-red">'.$maxcount.'</span>注，请重新投注');
+      if ($code['actionNum'] > $maxcount) core::error('['.$playedname.']投注上限为<span class="btn btn-red">'.$maxcount.'</span>注，请重新投注');
 			//最低消费金额计算
 			$mincoin += $played['minCharge'];
 			//总注数计算
 			$allNum += $code['actionNum'];
 		}
-        $code = current($codes);
+    $code = current($codes);
 		if (isset($para['actionNo'])) unset($para['actionNo']);
 		if (isset($para['kjTime'])) unset($para['kjTime']);
 		$para = array_merge($para, array(
@@ -340,7 +349,7 @@ class mod_game extends mod {
 		} else {
 			$liqType = 101;
 			$info = '投注';
-            if ($actionNo['actionNo'] != $code['actionNo']) {
+      if ($actionNo['actionNo'] != $code['actionNo']) {
 				core::error('投注失败，您投注的第<span class="btn btn-red">'.$actionNo['actionNo'].'</span>期已经过购买时间');
 			}
 			foreach ($codes as $i => $code) {
@@ -352,6 +361,23 @@ class mod_game extends mod {
 		}
 		// 最低消费金额检查
 		if ($amount < $mincoin) core::error('您的投注金额小于最低消费金额<span class="btn btn-red">'.$mincoin.'</span>元，请重新投注');
+		
+		// 查询用户当期投注金额,限200元 add by aboooo at 20160821		
+		$uid = $this->user['uid'];
+		$actionNo = $para['actionNo'];
+		$type = $para['type'];
+		
+		$userBetAmount = $this->db->query("select ifnull(sum(actionNum*beiShu*mode),0) as amount from `{$this->db_prefix}bets` where `type`={$type} and `uid`={$uid} and `actionNo`='{$actionNo}'", 2);
+		$userBetAmount = $userBetAmount['amount'];
+		$userBetAmount = intval($userBetAmount) + intval($amount);
+
+		$betMaxAmount = $this->db->query("select value from `{$this->db_prefix}params` where name='betMaxAmount' LIMIT 1", 2);
+		$betMaxAmount = intval($betMaxAmount['value']);
+		if ($userBetAmount > $betMaxAmount){
+			core::error('您本期的投注总金额('.$userBetAmount.')已经超过每人每期金额限额('.$betMaxAmount.'),请刷新后重新投注！');
+			
+		}
+		
 		// 查询用户可用资金
 		$uid = $this->user['uid'];
 		$userAmount = $this->db->query("SELECT `coin` FROM `{$this->db_prefix}members` WHERE `uid`={$uid} LIMIT 1", 2);
@@ -460,28 +486,26 @@ class mod_game extends mod {
 		$this->check_post();
 		$type_id = $this->get_id();
 		$mode = array_key_exists('mode', $_GET) ? $_GET['mode'] : '';
-		// 获取上期期号数据(期号,开奖时间)
+		// 获取上期期号数据
 		$last = core::lib('game')->get_game_last_no($type_id);
 		$actionNo = $last['actionNo'];
 		$sql = "SELECT `data` FROM `{$this->db_prefix}data` WHERE `type`={$type_id} AND `number`='{$actionNo}' LIMIT 1";
 		$lottery = $this->db->query($sql, 2);
 		$lottery = $lottery ? explode(',', $lottery['data']) : array();
-		// 获取下期期号数据(期号,开奖时间)
+		// 获取下期期号数据
 		$current = core::lib('game')->get_game_no($type_id);
 		$types = core::lib('game')->get_types();
-
-        // 获取开奖时间数据
-		$kjdTime = $types[$type_id]['data_ftime'];  // 开奖等待时间,即开奖前停止下注时间
-		$diffTime = strtotime($current['actionTime']) - $this->time - $kjdTime;  //投注结束剩余时间
-		$kjDiffTime = strtotime($last['actionTime']) - $this->time;   // 开奖剩余时间
-
-        // 获取开奖历史: 获取20期/10期(mobile)
+		// 获取开奖时间数据
+		$kjdTime = $types[$type_id]['data_ftime'];
+		$diffTime = strtotime($current['actionTime']) - $this->time - $kjdTime;
+		$kjDiffTime = strtotime($last['actionTime']) - $this->time;
+		// 获取开奖历史: 获取20期
 		$sql = "SELECT `time`,`number`,`data` FROM `{$this->db_prefix}data` WHERE `type`={$type_id} ORDER BY `id` DESC LIMIT ".$this->pagesize;
 		$history = $this->db->query($sql, 3);
-
+		
 		$tpl = 'game/lottery';
 		if($mode==='1') $tpl = 'game/lottery_recent';
-		
+
 		$this->display($tpl, array(
 			'types' => $types,
 			'type_id' => $type_id,
@@ -493,7 +517,7 @@ class mod_game extends mod {
 			'diffTime' => $diffTime,
 			'kjDiffTime' => $kjDiffTime,
 			'history' => $history,
-            'mode' => $mode,
+		  'mode' => $mode,
 		));
 	}
 	

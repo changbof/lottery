@@ -1,6 +1,6 @@
 <div id="game-lottery" type="<?php echo $type_id;?>" ctype="<?php echo $types[$type_id]['type']?>">
 	<div class="lottery-container">
-		<div class="loading">开奖数据加载中，请稍候...</div>
+		<div class="loading">开奖数据加载中，请稍后...</div>
 	</div>
 </div>
 <div id="game-play">
